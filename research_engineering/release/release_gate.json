@@ -1,0 +1,47 @@
+{
+  "version": "ClaimsLens V2 candidate",
+  "evaluation_population": "DEV only",
+  "architecture_status": "NOT FINAL HOLDOUT VALIDATED",
+  "gates": {
+    "macro_f1": {
+      "threshold": 0.7,
+      "observed_dev": 0.9504,
+      "pass": true
+    },
+    "state_accuracy": {
+      "threshold": 0.8,
+      "observed_dev": 0.95,
+      "pass": true
+    },
+    "state_stability": {
+      "threshold": 0.9,
+      "observed_dev": 0.9375,
+      "pass": true
+    },
+    "unsupported_closure_rate": {
+      "threshold_max": 0.05,
+      "observed_dev": 0.0,
+      "pass": true
+    },
+    "blocker_f1": {
+      "threshold": 0.5,
+      "observed_dev": 0.0,
+      "pass": false,
+      "status": "KNOWN DEVELOPMENT GAP"
+    },
+    "unverifiable_reason_accuracy": {
+      "threshold": 0.7,
+      "observed_dev": 0.571,
+      "pass": false,
+      "status": "KNOWN DEVELOPMENT GAP"
+    }
+  },
+  "holdout_policy": [
+    "Do not call DEV performance generalization.",
+    "Freeze architecture before fresh V2 holdout.",
+    "Hash code and benchmark artifacts before holdout.",
+    "Run final holdout once.",
+    "Do not tune on final holdout.",
+    "Preserve failures."
+  ]
+}

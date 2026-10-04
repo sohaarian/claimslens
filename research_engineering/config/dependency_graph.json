@@ -1,0 +1,45 @@
+{
+  "SPECIALIST_CONSULT": {
+    "nodes": [
+      "ORDER_OR_RECOMMENDATION",
+      "REFERRAL_SENT",
+      "REFERRAL_ACCEPTED",
+      "APPOINTMENT_SCHEDULED",
+      "APPOINTMENT_COMPLETED",
+      "REPORT_AVAILABLE"
+    ],
+    "closure_critical": [
+      "ORDER_OR_RECOMMENDATION",
+      "REFERRAL_ACCEPTED",
+      "APPOINTMENT_COMPLETED",
+      "REPORT_AVAILABLE"
+    ]
+  },
+  "DIAGNOSTIC_IMAGING": {
+    "nodes": [
+      "ORDER_OR_RECOMMENDATION",
+      "AUTHORIZATION_IF_REQUIRED",
+      "APPOINTMENT_SCHEDULED",
+      "STUDY_COMPLETED",
+      "REPORT_AVAILABLE"
+    ],
+    "closure_critical": [
+      "ORDER_OR_RECOMMENDATION",
+      "AUTHORIZATION_IF_REQUIRED",
+      "STUDY_COMPLETED",
+      "REPORT_AVAILABLE"
+    ]
+  },
+  "AUTHORIZATION_REQUEST": {
+    "nodes": [
+      "AUTHORIZATION_REQUESTED",
+      "AUTHORIZATION_DECISION",
+      "DECISION_COMMUNICATED"
+    ],
+    "closure_critical": [
+      "AUTHORIZATION_REQUESTED",
+      "AUTHORIZATION_DECISION",
+      "DECISION_COMMUNICATED"
+    ]
+  }
+}

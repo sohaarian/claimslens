@@ -1,0 +1,201 @@
+claim_id,worker_alias,employer,injury_date,adjuster,ncm
+WC-1001,Employee 001,NorthStar Logistics,2026-09-04,Adjuster C,NCM Patel
+WC-1002,Employee 002,Summit Construction,2026-04-23,Adjuster D,NCM Patel
+WC-1003,Employee 003,Blue Ridge Retail,2026-05-16,Adjuster D,NCM Chen
+WC-1004,Employee 004,Blue Ridge Retail,2026-05-17,Adjuster C,NCM Patel
+WC-1005,Employee 005,Pioneer Healthcare Services,2026-03-27,Adjuster A,NCM Chen
+WC-1006,Employee 006,Atlas Transportation,2025-12-13,Adjuster D,NCM Patel
+WC-1007,Employee 007,Crescent Hospitality,2025-12-27,Adjuster D,NCM Chen
+WC-1008,Employee 008,Summit Construction,2026-09-10,Adjuster B,NCM Chen
+WC-1009,Employee 009,Pioneer Healthcare Services,2026-08-22,Adjuster A,NCM Patel
+WC-1010,Employee 010,Metro Distribution,2026-07-28,Adjuster D,NCM Patel
+WC-1011,Employee 011,Summit Construction,2026-04-08,Adjuster D,NCM Morgan
+WC-1012,Employee 012,Metro Distribution,2026-03-28,Adjuster B,NCM Morgan
+WC-1013,Employee 013,Crescent Hospitality,2026-04-28,Adjuster C,NCM Rivera
+WC-1014,Employee 014,Crescent Hospitality,2026-04-27,Adjuster C,NCM Patel
+WC-1015,Employee 015,Summit Construction,2026-07-12,Adjuster C,NCM Patel
+WC-1016,Employee 016,Metro Distribution,2026-05-13,Adjuster C,NCM Patel
+WC-1017,Employee 017,Summit Construction,2025-12-30,Adjuster B,NCM Morgan
+WC-1018,Employee 018,Atlas Transportation,2026-03-17,Adjuster C,NCM Rivera
+WC-1019,Employee 019,Metro Distribution,2025-12-19,Adjuster C,NCM Patel
+WC-1020,Employee 020,Blue Ridge Retail,2026-05-15,Adjuster A,NCM Patel
+WC-1021,Employee 021,Metro Distribution,2025-12-12,Adjuster D,NCM Chen
+WC-1022,Employee 022,Pioneer Healthcare Services,2026-05-02,Adjuster B,NCM Patel
+WC-1023,Employee 023,Atlas Transportation,2026-08-11,Adjuster C,NCM Rivera
+WC-1024,Employee 024,Blue Ridge Retail,2026-01-11,Adjuster A,NCM Chen
+WC-1025,Employee 025,Summit Construction,2026-05-11,Adjuster C,NCM Rivera
+WC-1026,Employee 026,Pioneer Healthcare Services,2025-12-26,Adjuster C,NCM Patel
+WC-1027,Employee 027,Summit Construction,2026-01-06,Adjuster C,NCM Chen
+WC-1028,Employee 028,Lone Star Manufacturing,2026-07-12,Adjuster D,NCM Patel
+WC-1029,Employee 029,Crescent Hospitality,2026-08-30,Adjuster A,NCM Morgan
+WC-1030,Employee 030,Summit Construction,2026-02-25,Adjuster B,NCM Patel
+WC-1031,Employee 031,Summit Construction,2026-02-15,Adjuster C,NCM Chen
+WC-1032,Employee 032,Crescent Hospitality,2026-01-23,Adjuster C,NCM Rivera
+WC-1033,Employee 033,NorthStar Logistics,2026-07-28,Adjuster D,NCM Morgan
+WC-1034,Employee 034,Metro Distribution,2026-05-27,Adjuster D,NCM Chen
+WC-1035,Employee 035,Metro Distribution,2025-12-20,Adjuster B,NCM Rivera
+WC-1036,Employee 036,Crescent Hospitality,2026-09-16,Adjuster B,NCM Morgan
+WC-1037,Employee 037,Pioneer Healthcare Services,2026-01-28,Adjuster D,NCM Morgan
+WC-1038,Employee 038,Atlas Transportation,2026-02-18,Adjuster D,NCM Morgan
+WC-1039,Employee 039,Summit Construction,2026-05-15,Adjuster A,NCM Chen
+WC-1040,Employee 040,Summit Construction,2026-06-19,Adjuster C,NCM Patel
+WC-1041,Employee 041,Lone Star Manufacturing,2025-12-27,Adjuster B,NCM Rivera
+WC-1042,Employee 042,Lone Star Manufacturing,2026-06-01,Adjuster D,NCM Rivera
+WC-1043,Employee 043,Summit Construction,2026-06-29,Adjuster A,NCM Chen
+WC-1044,Employee 044,Atlas Transportation,2026-06-14,Adjuster C,NCM Morgan
+WC-1045,Employee 045,Atlas Transportation,2025-12-20,Adjuster A,NCM Chen
+WC-1046,Employee 046,Atlas Transportation,2026-07-24,Adjuster B,NCM Patel
+WC-1047,Employee 047,Crescent Hospitality,2026-04-26,Adjuster D,NCM Chen
+WC-1048,Employee 048,Lone Star Manufacturing,2026-06-27,Adjuster B,NCM Patel
+WC-1049,Employee 049,Pioneer Healthcare Services,2026-08-13,Adjuster C,NCM Rivera
+WC-1050,Employee 050,Pioneer Healthcare Services,2026-02-09,Adjuster B,NCM Morgan
+WC-1051,Employee 051,Blue Ridge Retail,2026-05-06,Adjuster C,NCM Patel
+WC-1052,Employee 052,Metro Distribution,2026-03-19,Adjuster D,NCM Rivera
+WC-1053,Employee 053,Lone Star Manufacturing,2026-06-26,Adjuster A,NCM Morgan
+WC-1054,Employee 054,Metro Distribution,2026-03-05,Adjuster B,NCM Chen
+WC-1055,Employee 055,Lone Star Manufacturing,2026-02-01,Adjuster B,NCM Patel
+WC-1056,Employee 056,Summit Construction,2025-12-09,Adjuster C,NCM Patel
+WC-1057,Employee 057,Blue Ridge Retail,2026-04-05,Adjuster A,NCM Morgan
+WC-1058,Employee 058,Lone Star Manufacturing,2026-07-24,Adjuster A,NCM Rivera
+WC-1059,Employee 059,Pioneer Healthcare Services,2026-07-17,Adjuster D,NCM Patel
+WC-1060,Employee 060,Lone Star Manufacturing,2026-08-23,Adjuster D,NCM Morgan
+WC-1061,Employee 061,Summit Construction,2026-02-14,Adjuster D,NCM Patel
+WC-1062,Employee 062,Atlas Transportation,2026-05-14,Adjuster D,NCM Rivera
+WC-1063,Employee 063,Pioneer Healthcare Services,2025-12-16,Adjuster B,NCM Morgan
+WC-1064,Employee 064,Crescent Hospitality,2026-09-18,Adjuster D,NCM Morgan
+WC-1065,Employee 065,Summit Construction,2026-04-10,Adjuster B,NCM Chen
+WC-1066,Employee 066,Crescent Hospitality,2026-05-21,Adjuster C,NCM Patel
+WC-1067,Employee 067,Pioneer Healthcare Services,2026-02-07,Adjuster D,NCM Chen
+WC-1068,Employee 068,Summit Construction,2026-01-19,Adjuster C,NCM Chen
+WC-1069,Employee 069,NorthStar Logistics,2026-09-18,Adjuster C,NCM Rivera
+WC-1070,Employee 070,Lone Star Manufacturing,2026-08-16,Adjuster B,NCM Rivera
+WC-1071,Employee 071,NorthStar Logistics,2026-04-18,Adjuster D,NCM Patel
+WC-1072,Employee 072,Lone Star Manufacturing,2026-08-10,Adjuster C,NCM Chen
+WC-1073,Employee 073,Summit Construction,2026-09-16,Adjuster D,NCM Morgan
+WC-1074,Employee 074,Blue Ridge Retail,2026-01-21,Adjuster B,NCM Rivera
+WC-1075,Employee 075,Pioneer Healthcare Services,2026-08-21,Adjuster C,NCM Patel
+WC-1076,Employee 076,Crescent Hospitality,2026-06-15,Adjuster D,NCM Chen
+WC-1077,Employee 077,Crescent Hospitality,2025-12-16,Adjuster B,NCM Morgan
+WC-1078,Employee 078,Metro Distribution,2026-01-15,Adjuster B,NCM Rivera
+WC-1079,Employee 079,Pioneer Healthcare Services,2026-01-03,Adjuster B,NCM Patel
+WC-1080,Employee 080,Lone Star Manufacturing,2026-09-16,Adjuster C,NCM Chen
+WC-1081,Employee 081,Metro Distribution,2025-12-12,Adjuster B,NCM Patel
+WC-1082,Employee 082,Metro Distribution,2026-07-09,Adjuster D,NCM Patel
+WC-1083,Employee 083,Atlas Transportation,2026-03-10,Adjuster A,NCM Morgan
+WC-1084,Employee 084,Crescent Hospitality,2025-12-08,Adjuster D,NCM Patel
+WC-1085,Employee 085,Summit Construction,2026-04-02,Adjuster D,NCM Patel
+WC-1086,Employee 086,NorthStar Logistics,2026-06-23,Adjuster A,NCM Rivera
+WC-1087,Employee 087,Metro Distribution,2026-07-20,Adjuster B,NCM Morgan
+WC-1088,Employee 088,Crescent Hospitality,2026-08-13,Adjuster B,NCM Rivera
+WC-1089,Employee 089,Atlas Transportation,2026-02-12,Adjuster C,NCM Chen
+WC-1090,Employee 090,Lone Star Manufacturing,2026-06-28,Adjuster C,NCM Rivera
+WC-1091,Employee 091,Pioneer Healthcare Services,2025-12-07,Adjuster D,NCM Morgan
+WC-1092,Employee 092,Lone Star Manufacturing,2026-04-26,Adjuster D,NCM Rivera
+WC-1093,Employee 093,Metro Distribution,2026-08-14,Adjuster D,NCM Rivera
+WC-1094,Employee 094,Atlas Transportation,2026-08-12,Adjuster D,NCM Chen
+WC-1095,Employee 095,NorthStar Logistics,2026-02-16,Adjuster D,NCM Morgan
+WC-1096,Employee 096,Summit Construction,2026-08-29,Adjuster D,NCM Rivera
+WC-1097,Employee 097,Metro Distribution,2026-05-13,Adjuster D,NCM Rivera
+WC-1098,Employee 098,Summit Construction,2026-06-22,Adjuster D,NCM Chen
+WC-1099,Employee 099,Atlas Transportation,2026-06-27,Adjuster A,NCM Morgan
+WC-1100,Employee 100,Summit Construction,2026-09-10,Adjuster C,NCM Rivera
+WC-1101,Employee 101,Summit Construction,2026-09-01,Adjuster D,NCM Chen
+WC-1102,Employee 102,Crescent Hospitality,2026-03-25,Adjuster A,NCM Morgan
+WC-1103,Employee 103,NorthStar Logistics,2026-01-28,Adjuster D,NCM Chen
+WC-1104,Employee 104,NorthStar Logistics,2026-01-18,Adjuster B,NCM Chen
+WC-1105,Employee 105,Crescent Hospitality,2026-05-17,Adjuster A,NCM Rivera
+WC-1106,Employee 106,Atlas Transportation,2026-06-15,Adjuster A,NCM Morgan
+WC-1107,Employee 107,Summit Construction,2026-04-16,Adjuster C,NCM Chen
+WC-1108,Employee 108,Crescent Hospitality,2026-06-27,Adjuster D,NCM Patel
+WC-1109,Employee 109,Atlas Transportation,2026-02-24,Adjuster D,NCM Rivera
+WC-1110,Employee 110,Atlas Transportation,2026-03-04,Adjuster A,NCM Morgan
+WC-1111,Employee 111,Atlas Transportation,2026-07-13,Adjuster B,NCM Rivera
+WC-1112,Employee 112,Metro Distribution,2026-05-27,Adjuster A,NCM Chen
+WC-1113,Employee 113,Blue Ridge Retail,2026-08-05,Adjuster A,NCM Patel
+WC-1114,Employee 114,Pioneer Healthcare Services,2026-05-21,Adjuster A,NCM Morgan
+WC-1115,Employee 115,NorthStar Logistics,2026-05-29,Adjuster B,NCM Rivera
+WC-1116,Employee 116,Blue Ridge Retail,2026-08-12,Adjuster C,NCM Patel
+WC-1117,Employee 117,Blue Ridge Retail,2026-05-11,Adjuster D,NCM Chen
+WC-1118,Employee 118,Atlas Transportation,2026-01-10,Adjuster D,NCM Morgan
+WC-1119,Employee 119,Crescent Hospitality,2026-02-19,Adjuster C,NCM Patel
+WC-1120,Employee 120,Atlas Transportation,2026-06-24,Adjuster B,NCM Rivera
+WC-1121,Employee 121,Blue Ridge Retail,2025-12-09,Adjuster A,NCM Patel
+WC-1122,Employee 122,Pioneer Healthcare Services,2026-07-05,Adjuster A,NCM Patel
+WC-1123,Employee 123,NorthStar Logistics,2026-04-03,Adjuster B,NCM Morgan
+WC-1124,Employee 124,NorthStar Logistics,2026-09-06,Adjuster D,NCM Patel
+WC-1125,Employee 125,Crescent Hospitality,2026-01-30,Adjuster B,NCM Patel
+WC-1126,Employee 126,NorthStar Logistics,2026-02-18,Adjuster D,NCM Patel
+WC-1127,Employee 127,Summit Construction,2026-05-17,Adjuster D,NCM Rivera
+WC-1128,Employee 128,Crescent Hospitality,2026-05-24,Adjuster A,NCM Rivera
+WC-1129,Employee 129,Pioneer Healthcare Services,2026-08-05,Adjuster A,NCM Patel
+WC-1130,Employee 130,Summit Construction,2026-06-23,Adjuster D,NCM Morgan
+WC-1131,Employee 131,Summit Construction,2026-08-27,Adjuster D,NCM Patel
+WC-1132,Employee 132,Crescent Hospitality,2026-06-28,Adjuster A,NCM Morgan
+WC-1133,Employee 133,Lone Star Manufacturing,2026-07-08,Adjuster B,NCM Chen
+WC-1134,Employee 134,Pioneer Healthcare Services,2026-06-13,Adjuster C,NCM Morgan
+WC-1135,Employee 135,NorthStar Logistics,2026-06-03,Adjuster D,NCM Morgan
+WC-1136,Employee 136,Metro Distribution,2026-04-12,Adjuster D,NCM Patel
+WC-1137,Employee 137,Metro Distribution,2026-04-20,Adjuster A,NCM Chen
+WC-1138,Employee 138,Atlas Transportation,2026-08-16,Adjuster C,NCM Morgan
+WC-1139,Employee 139,Lone Star Manufacturing,2026-06-05,Adjuster D,NCM Rivera
+WC-1140,Employee 140,NorthStar Logistics,2026-03-08,Adjuster D,NCM Morgan
+WC-1141,Employee 141,Blue Ridge Retail,2026-08-19,Adjuster D,NCM Patel
+WC-1142,Employee 142,Metro Distribution,2026-05-10,Adjuster C,NCM Patel
+WC-1143,Employee 143,Metro Distribution,2026-07-14,Adjuster B,NCM Patel
+WC-1144,Employee 144,Lone Star Manufacturing,2026-01-09,Adjuster B,NCM Morgan
+WC-1145,Employee 145,Pioneer Healthcare Services,2026-02-28,Adjuster C,NCM Chen
+WC-1146,Employee 146,Crescent Hospitality,2026-06-25,Adjuster D,NCM Chen
+WC-1147,Employee 147,Lone Star Manufacturing,2026-01-22,Adjuster D,NCM Rivera
+WC-1148,Employee 148,NorthStar Logistics,2026-06-30,Adjuster D,NCM Rivera
+WC-1149,Employee 149,Lone Star Manufacturing,2026-08-19,Adjuster D,NCM Morgan
+WC-1150,Employee 150,Summit Construction,2026-03-20,Adjuster A,NCM Morgan
+WC-1151,Employee 151,Lone Star Manufacturing,2026-01-14,Adjuster C,NCM Rivera
+WC-1152,Employee 152,Blue Ridge Retail,2026-09-01,Adjuster D,NCM Patel
+WC-1153,Employee 153,Lone Star Manufacturing,2026-01-02,Adjuster A,NCM Rivera
+WC-1154,Employee 154,Pioneer Healthcare Services,2026-07-28,Adjuster A,NCM Morgan
+WC-1155,Employee 155,Crescent Hospitality,2026-04-10,Adjuster C,NCM Rivera
+WC-1156,Employee 156,Summit Construction,2026-04-30,Adjuster C,NCM Patel
+WC-1157,Employee 157,NorthStar Logistics,2025-12-17,Adjuster B,NCM Patel
+WC-1158,Employee 158,NorthStar Logistics,2026-06-28,Adjuster C,NCM Patel
+WC-1159,Employee 159,Atlas Transportation,2026-01-11,Adjuster C,NCM Rivera
+WC-1160,Employee 160,Pioneer Healthcare Services,2026-05-25,Adjuster D,NCM Rivera
+WC-1161,Employee 161,NorthStar Logistics,2026-06-25,Adjuster B,NCM Rivera
+WC-1162,Employee 162,Blue Ridge Retail,2026-09-10,Adjuster B,NCM Patel
+WC-1163,Employee 163,Lone Star Manufacturing,2026-07-05,Adjuster A,NCM Patel
+WC-1164,Employee 164,Pioneer Healthcare Services,2026-01-29,Adjuster A,NCM Morgan
+WC-1165,Employee 165,Lone Star Manufacturing,2026-05-16,Adjuster C,NCM Chen
+WC-1166,Employee 166,Lone Star Manufacturing,2026-06-12,Adjuster A,NCM Morgan
+WC-1167,Employee 167,Metro Distribution,2025-12-11,Adjuster C,NCM Patel
+WC-1168,Employee 168,NorthStar Logistics,2026-01-01,Adjuster A,NCM Chen
+WC-1169,Employee 169,NorthStar Logistics,2026-06-09,Adjuster A,NCM Morgan
+WC-1170,Employee 170,Summit Construction,2025-12-17,Adjuster C,NCM Rivera
+WC-1171,Employee 171,Lone Star Manufacturing,2026-08-05,Adjuster B,NCM Rivera
+WC-1172,Employee 172,Atlas Transportation,2026-07-17,Adjuster B,NCM Rivera
+WC-1173,Employee 173,NorthStar Logistics,2026-04-21,Adjuster D,NCM Chen
+WC-1174,Employee 174,Lone Star Manufacturing,2026-07-28,Adjuster D,NCM Chen
+WC-1175,Employee 175,Lone Star Manufacturing,2026-05-26,Adjuster D,NCM Patel
+WC-1176,Employee 176,NorthStar Logistics,2026-08-26,Adjuster D,NCM Rivera
+WC-1177,Employee 177,Crescent Hospitality,2026-02-02,Adjuster A,NCM Patel
+WC-1178,Employee 178,Summit Construction,2026-09-05,Adjuster B,NCM Patel
+WC-1179,Employee 179,Metro Distribution,2025-12-20,Adjuster C,NCM Chen
+WC-1180,Employee 180,Atlas Transportation,2026-08-18,Adjuster B,NCM Morgan
+WC-1181,Employee 181,Lone Star Manufacturing,2026-01-13,Adjuster C,NCM Rivera
+WC-1182,Employee 182,Crescent Hospitality,2026-08-02,Adjuster B,NCM Morgan
+WC-1183,Employee 183,Pioneer Healthcare Services,2026-08-30,Adjuster D,NCM Rivera
+WC-1184,Employee 184,Pioneer Healthcare Services,2026-08-02,Adjuster C,NCM Morgan
+WC-1185,Employee 185,NorthStar Logistics,2025-12-12,Adjuster B,NCM Morgan
+WC-1186,Employee 186,Summit Construction,2026-06-25,Adjuster B,NCM Chen
+WC-1187,Employee 187,Summit Construction,2025-12-14,Adjuster D,NCM Rivera
+WC-1188,Employee 188,Crescent Hospitality,2026-07-21,Adjuster A,NCM Morgan
+WC-1189,Employee 189,Metro Distribution,2026-05-20,Adjuster C,NCM Chen
+WC-1190,Employee 190,Summit Construction,2026-01-18,Adjuster C,NCM Chen
+WC-1191,Employee 191,Summit Construction,2026-05-28,Adjuster D,NCM Chen
+WC-1192,Employee 192,Metro Distribution,2026-04-07,Adjuster A,NCM Chen
+WC-1193,Employee 193,Metro Distribution,2026-07-26,Adjuster A,NCM Chen
+WC-1194,Employee 194,Pioneer Healthcare Services,2026-08-03,Adjuster C,NCM Chen
+WC-1195,Employee 195,Lone Star Manufacturing,2026-05-29,Adjuster C,NCM Morgan
+WC-1196,Employee 196,Blue Ridge Retail,2026-03-30,Adjuster D,NCM Chen
+WC-1197,Employee 197,Atlas Transportation,2026-07-26,Adjuster D,NCM Chen
+WC-1198,Employee 198,Crescent Hospitality,2026-02-25,Adjuster C,NCM Chen
+WC-1199,Employee 199,Pioneer Healthcare Services,2026-05-08,Adjuster B,NCM Chen
+WC-1200,Employee 200,Pioneer Healthcare Services,2026-08-19,Adjuster D,NCM Morgan

@@ -1,0 +1,409 @@
+claim_id,obligation_id,obligation_type,obligation_name,state,reason,expected_event_passed,blocker,missing_proof,as_of_date
+WC-1001,OBL-0001,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1001,OBL-0002,DIAGNOSTIC_IMAGING,Lumbar MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1001,OBL-0003,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1002,OBL-0004,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1002,OBL-0005,SPECIALIST_CONSULT,Orthopedic consultation,CLOSED,,NO,,,2026-10-03
+WC-1002,OBL-0006,DIAGNOSTIC_IMAGING,Wrist CT,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1003,OBL-0007,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1003,OBL-0008,AUTHORIZATION_REQUEST,Physical therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1004,OBL-0009,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1005,OBL-0010,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1006,OBL-0011,AUTHORIZATION_REQUEST,Occupational therapy authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1006,OBL-0012,SPECIALIST_CONSULT,Foot and ankle consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1007,OBL-0013,SPECIALIST_CONSULT,Hand surgeon consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1007,OBL-0014,DIAGNOSTIC_IMAGING,Wrist CT,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1007,OBL-0015,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1008,OBL-0016,DIAGNOSTIC_IMAGING,Hip MRI,CANCELLED,,NO,,,2026-10-03
+WC-1008,OBL-0017,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1008,OBL-0018,SPECIALIST_CONSULT,Pain management consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1009,OBL-0019,DIAGNOSTIC_IMAGING,Shoulder MRI,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative imaging completion status,2026-10-03
+WC-1009,OBL-0020,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1010,OBL-0021,DIAGNOSTIC_IMAGING,Cervical MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1010,OBL-0022,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1010,OBL-0023,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1011,OBL-0024,DIAGNOSTIC_IMAGING,Knee MRI,CANCELLED,,NO,,,2026-10-03
+WC-1011,OBL-0025,SPECIALIST_CONSULT,Foot and ankle consultation,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1012,OBL-0026,SPECIALIST_CONSULT,Hand surgeon consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1012,OBL-0027,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1013,OBL-0028,SPECIALIST_CONSULT,Orthopedic consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1013,OBL-0029,AUTHORIZATION_REQUEST,Physical therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1014,OBL-0030,SPECIALIST_CONSULT,Pain management consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1014,OBL-0031,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1015,OBL-0032,DIAGNOSTIC_IMAGING,Wrist CT,CLOSED,,NO,,,2026-10-03
+WC-1015,OBL-0033,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1016,OBL-0034,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1016,OBL-0035,SPECIALIST_CONSULT,Foot and ankle consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1017,OBL-0036,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1017,OBL-0037,DIAGNOSTIC_IMAGING,Cervical MRI,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative imaging completion status,2026-10-03
+WC-1017,OBL-0038,SPECIALIST_CONSULT,Hand surgeon consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1018,OBL-0039,SPECIALIST_CONSULT,Pain management consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1018,OBL-0040,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1019,OBL-0041,DIAGNOSTIC_IMAGING,Knee MRI,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1019,OBL-0042,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1020,OBL-0043,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1021,OBL-0044,AUTHORIZATION_REQUEST,Physical therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1021,OBL-0045,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1022,OBL-0046,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1022,OBL-0047,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1022,OBL-0048,SPECIALIST_CONSULT,Spine specialist consultation,CLOSED,,NO,,,2026-10-03
+WC-1023,OBL-0049,SPECIALIST_CONSULT,Pain management consultation,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1023,OBL-0050,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1023,OBL-0051,DIAGNOSTIC_IMAGING,Cervical MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1024,OBL-0052,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1024,OBL-0053,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1025,OBL-0054,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1026,OBL-0055,DIAGNOSTIC_IMAGING,Hip MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1026,OBL-0056,AUTHORIZATION_REQUEST,Epidural injection authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1026,OBL-0057,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1027,OBL-0058,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1028,OBL-0059,AUTHORIZATION_REQUEST,Physical therapy authorization,CANCELLED,,NO,,,2026-10-03
+WC-1028,OBL-0060,DIAGNOSTIC_IMAGING,Hip MRI,CANCELLED,,NO,,,2026-10-03
+WC-1029,OBL-0061,SPECIALIST_CONSULT,Hand surgeon consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1030,OBL-0062,DIAGNOSTIC_IMAGING,Knee MRI,CLOSED,,NO,,,2026-10-03
+WC-1030,OBL-0063,AUTHORIZATION_REQUEST,Work conditioning authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1031,OBL-0064,DIAGNOSTIC_IMAGING,Knee MRI,CANCELLED,,NO,,,2026-10-03
+WC-1031,OBL-0065,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1031,OBL-0066,SPECIALIST_CONSULT,Hand surgeon consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1032,OBL-0067,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1032,OBL-0068,DIAGNOSTIC_IMAGING,Lumbar MRI,CLOSED,,NO,,,2026-10-03
+WC-1033,OBL-0069,SPECIALIST_CONSULT,Orthopedic consultation,CANCELLED,,NO,,,2026-10-03
+WC-1033,OBL-0070,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1034,OBL-0071,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1034,OBL-0072,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1035,OBL-0073,DIAGNOSTIC_IMAGING,Wrist CT,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1035,OBL-0074,AUTHORIZATION_REQUEST,Facet injection authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1036,OBL-0075,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1036,OBL-0076,DIAGNOSTIC_IMAGING,Shoulder MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1036,OBL-0077,SPECIALIST_CONSULT,Spine specialist consultation,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1037,OBL-0078,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1037,OBL-0079,SPECIALIST_CONSULT,Spine specialist consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1038,OBL-0080,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1039,OBL-0081,SPECIALIST_CONSULT,Hand surgeon consultation,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1039,OBL-0082,AUTHORIZATION_REQUEST,Aquatic therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1039,OBL-0083,DIAGNOSTIC_IMAGING,Lumbar MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1040,OBL-0084,DIAGNOSTIC_IMAGING,Shoulder MRI,CANCELLED,,NO,,,2026-10-03
+WC-1041,OBL-0085,SPECIALIST_CONSULT,Foot and ankle consultation,CLOSED,,NO,,,2026-10-03
+WC-1041,OBL-0086,DIAGNOSTIC_IMAGING,Cervical MRI,CANCELLED,,NO,,,2026-10-03
+WC-1042,OBL-0087,AUTHORIZATION_REQUEST,Facet injection authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1042,OBL-0088,DIAGNOSTIC_IMAGING,Knee MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1042,OBL-0089,SPECIALIST_CONSULT,Orthopedic consultation,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1043,OBL-0090,DIAGNOSTIC_IMAGING,Cervical MRI,CLOSED,,NO,,,2026-10-03
+WC-1043,OBL-0091,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1044,OBL-0092,AUTHORIZATION_REQUEST,Facet injection authorization,CANCELLED,,NO,,,2026-10-03
+WC-1044,OBL-0093,SPECIALIST_CONSULT,Pain management consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1045,OBL-0094,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1045,OBL-0095,DIAGNOSTIC_IMAGING,Wrist CT,CLOSED,,NO,,,2026-10-03
+WC-1046,OBL-0096,AUTHORIZATION_REQUEST,Work conditioning authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1047,OBL-0097,DIAGNOSTIC_IMAGING,Wrist CT,CANCELLED,,NO,,,2026-10-03
+WC-1048,OBL-0098,DIAGNOSTIC_IMAGING,Wrist CT,CANCELLED,,NO,,,2026-10-03
+WC-1048,OBL-0099,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1049,OBL-0100,AUTHORIZATION_REQUEST,Facet injection authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1049,OBL-0101,SPECIALIST_CONSULT,Pain management consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1050,OBL-0102,SPECIALIST_CONSULT,Pain management consultation,CANCELLED,,NO,,,2026-10-03
+WC-1050,OBL-0103,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1051,OBL-0104,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1051,OBL-0105,SPECIALIST_CONSULT,Spine specialist consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1052,OBL-0106,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1053,OBL-0107,SPECIALIST_CONSULT,Orthopedic consultation,CANCELLED,,NO,,,2026-10-03
+WC-1053,OBL-0108,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1053,OBL-0109,DIAGNOSTIC_IMAGING,Knee MRI,CLOSED,,NO,,,2026-10-03
+WC-1054,OBL-0110,SPECIALIST_CONSULT,Orthopedic consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1054,OBL-0111,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,decision date establishing event sequence,2026-10-03
+WC-1055,OBL-0112,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1055,OBL-0113,DIAGNOSTIC_IMAGING,Lumbar MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1055,OBL-0114,SPECIALIST_CONSULT,Orthopedic consultation,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1056,OBL-0115,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1057,OBL-0116,AUTHORIZATION_REQUEST,Occupational therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1058,OBL-0117,AUTHORIZATION_REQUEST,Occupational therapy authorization,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative authorization determination,2026-10-03
+WC-1059,OBL-0118,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1059,OBL-0119,DIAGNOSTIC_IMAGING,Wrist CT,CLOSED,,NO,,,2026-10-03
+WC-1060,OBL-0120,AUTHORIZATION_REQUEST,Epidural injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1060,OBL-0121,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1061,OBL-0122,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1061,OBL-0123,AUTHORIZATION_REQUEST,Occupational therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1062,OBL-0124,DIAGNOSTIC_IMAGING,Shoulder MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1062,OBL-0125,AUTHORIZATION_REQUEST,Work conditioning authorization,CANCELLED,,NO,,,2026-10-03
+WC-1063,OBL-0126,SPECIALIST_CONSULT,Foot and ankle consultation,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1063,OBL-0127,DIAGNOSTIC_IMAGING,Wrist CT,SUPERSEDED,,NO,,,2026-10-03
+WC-1063,OBL-0128,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,decision date establishing event sequence,2026-10-03
+WC-1064,OBL-0129,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1064,OBL-0130,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1065,OBL-0131,DIAGNOSTIC_IMAGING,Knee MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1065,OBL-0132,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1066,OBL-0133,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1066,OBL-0134,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1067,OBL-0135,AUTHORIZATION_REQUEST,Work conditioning authorization,CANCELLED,,NO,,,2026-10-03
+WC-1067,OBL-0136,SPECIALIST_CONSULT,Orthopedic consultation,CANCELLED,,NO,,,2026-10-03
+WC-1068,OBL-0137,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1068,OBL-0138,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1069,OBL-0139,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative authorization determination,2026-10-03
+WC-1069,OBL-0140,SPECIALIST_CONSULT,Neurology consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1070,OBL-0141,AUTHORIZATION_REQUEST,Epidural injection authorization,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative authorization determination,2026-10-03
+WC-1070,OBL-0142,SPECIALIST_CONSULT,Foot and ankle consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1070,OBL-0143,DIAGNOSTIC_IMAGING,Knee MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1071,OBL-0144,SPECIALIST_CONSULT,Foot and ankle consultation,CANCELLED,,NO,,,2026-10-03
+WC-1072,OBL-0145,SPECIALIST_CONSULT,Spine specialist consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1072,OBL-0146,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,decision date establishing event sequence,2026-10-03
+WC-1073,OBL-0147,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1073,OBL-0148,DIAGNOSTIC_IMAGING,Knee MRI,CANCELLED,,NO,,,2026-10-03
+WC-1074,OBL-0149,SPECIALIST_CONSULT,Neurology consultation,CLOSED,,NO,,,2026-10-03
+WC-1074,OBL-0150,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1075,OBL-0151,AUTHORIZATION_REQUEST,Aquatic therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1075,OBL-0152,DIAGNOSTIC_IMAGING,Knee MRI,CLOSED,,NO,,,2026-10-03
+WC-1075,OBL-0153,SPECIALIST_CONSULT,Hand surgeon consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1076,OBL-0154,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1076,OBL-0155,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1077,OBL-0156,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1077,OBL-0157,DIAGNOSTIC_IMAGING,Cervical MRI,CLOSED,,NO,,,2026-10-03
+WC-1077,OBL-0158,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1078,OBL-0159,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1078,OBL-0160,DIAGNOSTIC_IMAGING,Shoulder MRI,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative imaging completion status,2026-10-03
+WC-1079,OBL-0161,SPECIALIST_CONSULT,Spine specialist consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1080,OBL-0162,SPECIALIST_CONSULT,Spine specialist consultation,CLOSED,,NO,,,2026-10-03
+WC-1081,OBL-0163,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1081,OBL-0164,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1082,OBL-0165,DIAGNOSTIC_IMAGING,Wrist CT,CLOSED,,NO,,,2026-10-03
+WC-1082,OBL-0166,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1083,OBL-0167,DIAGNOSTIC_IMAGING,Shoulder MRI,CANCELLED,,NO,,,2026-10-03
+WC-1083,OBL-0168,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1084,OBL-0169,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1084,OBL-0170,SPECIALIST_CONSULT,Foot and ankle consultation,CLOSED,,NO,,,2026-10-03
+WC-1084,OBL-0171,AUTHORIZATION_REQUEST,Physical therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1085,OBL-0172,AUTHORIZATION_REQUEST,Aquatic therapy authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1085,OBL-0173,DIAGNOSTIC_IMAGING,Wrist CT,CANCELLED,,NO,,,2026-10-03
+WC-1085,OBL-0174,SPECIALIST_CONSULT,Spine specialist consultation,CLOSED,,NO,,,2026-10-03
+WC-1086,OBL-0175,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1087,OBL-0176,SPECIALIST_CONSULT,Orthopedic consultation,CLOSED,,NO,,,2026-10-03
+WC-1087,OBL-0177,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1087,OBL-0178,DIAGNOSTIC_IMAGING,Wrist CT,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1088,OBL-0179,SPECIALIST_CONSULT,Hand surgeon consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1089,OBL-0180,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1089,OBL-0181,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1090,OBL-0182,AUTHORIZATION_REQUEST,Work conditioning authorization,CANCELLED,,NO,,,2026-10-03
+WC-1090,OBL-0183,DIAGNOSTIC_IMAGING,Lumbar MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1090,OBL-0184,SPECIALIST_CONSULT,Spine specialist consultation,CLOSED,,NO,,,2026-10-03
+WC-1091,OBL-0185,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1091,OBL-0186,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1091,OBL-0187,DIAGNOSTIC_IMAGING,Wrist CT,CLOSED,,NO,,,2026-10-03
+WC-1092,OBL-0188,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1093,OBL-0189,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1094,OBL-0190,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative authorization determination,2026-10-03
+WC-1094,OBL-0191,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1094,OBL-0192,DIAGNOSTIC_IMAGING,Cervical MRI,CLOSED,,NO,,,2026-10-03
+WC-1095,OBL-0193,SPECIALIST_CONSULT,Orthopedic consultation,CLOSED,,NO,,,2026-10-03
+WC-1095,OBL-0194,DIAGNOSTIC_IMAGING,Knee MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1095,OBL-0195,AUTHORIZATION_REQUEST,Occupational therapy authorization,CANCELLED,,NO,,,2026-10-03
+WC-1096,OBL-0196,DIAGNOSTIC_IMAGING,Cervical MRI,CLOSED,,NO,,,2026-10-03
+WC-1096,OBL-0197,SPECIALIST_CONSULT,Hand surgeon consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1096,OBL-0198,AUTHORIZATION_REQUEST,Epidural injection authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1097,OBL-0199,DIAGNOSTIC_IMAGING,Lumbar MRI,CANCELLED,,NO,,,2026-10-03
+WC-1097,OBL-0200,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1098,OBL-0201,AUTHORIZATION_REQUEST,Aquatic therapy authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1098,OBL-0202,SPECIALIST_CONSULT,Foot and ankle consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1099,OBL-0203,AUTHORIZATION_REQUEST,Aquatic therapy authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1099,OBL-0204,DIAGNOSTIC_IMAGING,Shoulder MRI,CLOSED,,NO,,,2026-10-03
+WC-1100,OBL-0205,SPECIALIST_CONSULT,Neurology consultation,CLOSED,,NO,,,2026-10-03
+WC-1100,OBL-0206,DIAGNOSTIC_IMAGING,Cervical MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1100,OBL-0207,AUTHORIZATION_REQUEST,Epidural injection authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1101,OBL-0208,DIAGNOSTIC_IMAGING,Lumbar MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1102,OBL-0209,DIAGNOSTIC_IMAGING,Hip MRI,CLOSED,,NO,,,2026-10-03
+WC-1102,OBL-0210,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1103,OBL-0211,DIAGNOSTIC_IMAGING,Lumbar MRI,CANCELLED,,NO,,,2026-10-03
+WC-1103,OBL-0212,AUTHORIZATION_REQUEST,Aquatic therapy authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1103,OBL-0213,SPECIALIST_CONSULT,Neurology consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1104,OBL-0214,DIAGNOSTIC_IMAGING,Wrist CT,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1104,OBL-0215,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1105,OBL-0216,AUTHORIZATION_REQUEST,Aquatic therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1105,OBL-0217,DIAGNOSTIC_IMAGING,Lumbar MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1106,OBL-0218,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1106,OBL-0219,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1107,OBL-0220,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1107,OBL-0221,DIAGNOSTIC_IMAGING,Lumbar MRI,CANCELLED,,NO,,,2026-10-03
+WC-1108,OBL-0222,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1108,OBL-0223,SPECIALIST_CONSULT,Foot and ankle consultation,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1109,OBL-0224,DIAGNOSTIC_IMAGING,Shoulder MRI,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1110,OBL-0225,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1110,OBL-0226,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1111,OBL-0227,SPECIALIST_CONSULT,Hand surgeon consultation,CLOSED,,NO,,,2026-10-03
+WC-1111,OBL-0228,DIAGNOSTIC_IMAGING,Knee MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1111,OBL-0229,AUTHORIZATION_REQUEST,Physical therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1112,OBL-0230,DIAGNOSTIC_IMAGING,Wrist CT,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1113,OBL-0231,DIAGNOSTIC_IMAGING,Cervical MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1113,OBL-0232,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1113,OBL-0233,AUTHORIZATION_REQUEST,Epidural injection authorization,CANCELLED,,NO,,,2026-10-03
+WC-1114,OBL-0234,DIAGNOSTIC_IMAGING,Shoulder MRI,CANCELLED,,NO,,,2026-10-03
+WC-1115,OBL-0235,DIAGNOSTIC_IMAGING,Hip MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1115,OBL-0236,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1116,OBL-0237,DIAGNOSTIC_IMAGING,Wrist CT,SUPERSEDED,,NO,,,2026-10-03
+WC-1117,OBL-0238,SPECIALIST_CONSULT,Pain management consultation,CANCELLED,,NO,,,2026-10-03
+WC-1118,OBL-0239,SPECIALIST_CONSULT,Orthopedic consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1119,OBL-0240,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1119,OBL-0241,SPECIALIST_CONSULT,Neurology consultation,CLOSED,,NO,,,2026-10-03
+WC-1120,OBL-0242,SPECIALIST_CONSULT,Hand surgeon consultation,CANCELLED,,NO,,,2026-10-03
+WC-1120,OBL-0243,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,decision date establishing event sequence,2026-10-03
+WC-1121,OBL-0244,DIAGNOSTIC_IMAGING,Shoulder MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1121,OBL-0245,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1122,OBL-0246,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1122,OBL-0247,AUTHORIZATION_REQUEST,Aquatic therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1123,OBL-0248,AUTHORIZATION_REQUEST,Occupational therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1123,OBL-0249,DIAGNOSTIC_IMAGING,Hip MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1124,OBL-0250,DIAGNOSTIC_IMAGING,Hip MRI,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative imaging completion status,2026-10-03
+WC-1124,OBL-0251,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1125,OBL-0252,DIAGNOSTIC_IMAGING,Cervical MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1125,OBL-0253,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1126,OBL-0254,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative authorization determination,2026-10-03
+WC-1127,OBL-0255,SPECIALIST_CONSULT,Pain management consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1127,OBL-0256,DIAGNOSTIC_IMAGING,Shoulder MRI,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1127,OBL-0257,AUTHORIZATION_REQUEST,Epidural injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1128,OBL-0258,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1129,OBL-0259,DIAGNOSTIC_IMAGING,Hip MRI,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1129,OBL-0260,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1129,OBL-0261,SPECIALIST_CONSULT,Foot and ankle consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1130,OBL-0262,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative authorization determination,2026-10-03
+WC-1131,OBL-0263,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1131,OBL-0264,DIAGNOSTIC_IMAGING,Knee MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1131,OBL-0265,AUTHORIZATION_REQUEST,Occupational therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1132,OBL-0266,DIAGNOSTIC_IMAGING,Knee MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1132,OBL-0267,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1133,OBL-0268,DIAGNOSTIC_IMAGING,Cervical MRI,CLOSED,,NO,,,2026-10-03
+WC-1134,OBL-0269,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1134,OBL-0270,SPECIALIST_CONSULT,Pain management consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1135,OBL-0271,DIAGNOSTIC_IMAGING,Shoulder MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1135,OBL-0272,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,decision date establishing event sequence,2026-10-03
+WC-1136,OBL-0273,SPECIALIST_CONSULT,Foot and ankle consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1136,OBL-0274,DIAGNOSTIC_IMAGING,Hip MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1137,OBL-0275,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative specialist encounter status,2026-10-03
+WC-1138,OBL-0276,DIAGNOSTIC_IMAGING,Knee MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1138,OBL-0277,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1138,OBL-0278,SPECIALIST_CONSULT,Pain management consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1139,OBL-0279,SPECIALIST_CONSULT,Orthopedic consultation,CLOSED,,NO,,,2026-10-03
+WC-1139,OBL-0280,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1139,OBL-0281,DIAGNOSTIC_IMAGING,Cervical MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1140,OBL-0282,SPECIALIST_CONSULT,Spine specialist consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1140,OBL-0283,AUTHORIZATION_REQUEST,Occupational therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1140,OBL-0284,DIAGNOSTIC_IMAGING,Knee MRI,CLOSED,,NO,,,2026-10-03
+WC-1141,OBL-0285,DIAGNOSTIC_IMAGING,Lumbar MRI,CLOSED,,NO,,,2026-10-03
+WC-1142,OBL-0286,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1142,OBL-0287,SPECIALIST_CONSULT,Neurology consultation,CLOSED,,NO,,,2026-10-03
+WC-1143,OBL-0288,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1143,OBL-0289,SPECIALIST_CONSULT,Spine specialist consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1143,OBL-0290,DIAGNOSTIC_IMAGING,Hip MRI,CLOSED,,NO,,,2026-10-03
+WC-1144,OBL-0291,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1145,OBL-0292,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1145,OBL-0293,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1146,OBL-0294,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1146,OBL-0295,DIAGNOSTIC_IMAGING,Shoulder MRI,CANCELLED,,NO,,,2026-10-03
+WC-1147,OBL-0296,DIAGNOSTIC_IMAGING,Hip MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1147,OBL-0297,SPECIALIST_CONSULT,Foot and ankle consultation,CLOSED,,NO,,,2026-10-03
+WC-1147,OBL-0298,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1148,OBL-0299,DIAGNOSTIC_IMAGING,Lumbar MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1148,OBL-0300,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1148,OBL-0301,SPECIALIST_CONSULT,Pain management consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1149,OBL-0302,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1149,OBL-0303,DIAGNOSTIC_IMAGING,Cervical MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1150,OBL-0304,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1150,OBL-0305,DIAGNOSTIC_IMAGING,Wrist CT,SUPERSEDED,,NO,,,2026-10-03
+WC-1151,OBL-0306,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1152,OBL-0307,SPECIALIST_CONSULT,Neurology consultation,CANCELLED,,NO,,,2026-10-03
+WC-1153,OBL-0308,DIAGNOSTIC_IMAGING,Wrist CT,CANCELLED,,NO,,,2026-10-03
+WC-1153,OBL-0309,AUTHORIZATION_REQUEST,Occupational therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1153,OBL-0310,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1154,OBL-0311,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1154,OBL-0312,DIAGNOSTIC_IMAGING,Cervical MRI,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative imaging completion status,2026-10-03
+WC-1155,OBL-0313,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1155,OBL-0314,AUTHORIZATION_REQUEST,Physical therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1156,OBL-0315,DIAGNOSTIC_IMAGING,Lumbar MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1156,OBL-0316,AUTHORIZATION_REQUEST,Work conditioning authorization,CLOSED,,NO,,,2026-10-03
+WC-1157,OBL-0317,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1157,OBL-0318,DIAGNOSTIC_IMAGING,Hip MRI,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative imaging completion status,2026-10-03
+WC-1157,OBL-0319,SPECIALIST_CONSULT,Hand surgeon consultation,CLOSED,,NO,,,2026-10-03
+WC-1158,OBL-0320,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,decision date establishing event sequence,2026-10-03
+WC-1159,OBL-0321,AUTHORIZATION_REQUEST,Aquatic therapy authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1159,OBL-0322,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1160,OBL-0323,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1160,OBL-0324,SPECIALIST_CONSULT,Foot and ankle consultation,CLOSED,,NO,,,2026-10-03
+WC-1160,OBL-0325,DIAGNOSTIC_IMAGING,Wrist CT,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1161,OBL-0326,AUTHORIZATION_REQUEST,Occupational therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1161,OBL-0327,SPECIALIST_CONSULT,Foot and ankle consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1162,OBL-0328,DIAGNOSTIC_IMAGING,Hip MRI,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1162,OBL-0329,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1162,OBL-0330,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1163,OBL-0331,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CANCELLED,,NO,,,2026-10-03
+WC-1163,OBL-0332,SPECIALIST_CONSULT,Foot and ankle consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1163,OBL-0333,DIAGNOSTIC_IMAGING,Shoulder MRI,SUPERSEDED,,NO,,,2026-10-03
+WC-1164,OBL-0334,DIAGNOSTIC_IMAGING,Wrist CT,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1165,OBL-0335,SPECIALIST_CONSULT,Spine specialist consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1165,OBL-0336,AUTHORIZATION_REQUEST,Epidural injection authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1165,OBL-0337,DIAGNOSTIC_IMAGING,Cervical MRI,CLOSED,,NO,,,2026-10-03
+WC-1166,OBL-0338,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1166,OBL-0339,SPECIALIST_CONSULT,Spine specialist consultation,CLOSED,,NO,,,2026-10-03
+WC-1167,OBL-0340,SPECIALIST_CONSULT,Spine specialist consultation,CANCELLED,,NO,,,2026-10-03
+WC-1168,OBL-0341,DIAGNOSTIC_IMAGING,Shoulder MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1168,OBL-0342,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1169,OBL-0343,AUTHORIZATION_REQUEST,Occupational therapy authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1169,OBL-0344,DIAGNOSTIC_IMAGING,Wrist CT,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1170,OBL-0345,DIAGNOSTIC_IMAGING,Hip MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1170,OBL-0346,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1171,OBL-0347,DIAGNOSTIC_IMAGING,Wrist CT,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1171,OBL-0348,SPECIALIST_CONSULT,Pain management consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1171,OBL-0349,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1172,OBL-0350,SPECIALIST_CONSULT,Foot and ankle consultation,CLOSED,,NO,,,2026-10-03
+WC-1173,OBL-0351,AUTHORIZATION_REQUEST,Work conditioning authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1173,OBL-0352,DIAGNOSTIC_IMAGING,Hip MRI,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1174,OBL-0353,AUTHORIZATION_REQUEST,Facet injection authorization,CLOSED,,NO,,,2026-10-03
+WC-1175,OBL-0354,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1176,OBL-0355,SPECIALIST_CONSULT,Foot and ankle consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1176,OBL-0356,AUTHORIZATION_REQUEST,Physical therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1177,OBL-0357,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1177,OBL-0358,DIAGNOSTIC_IMAGING,Lumbar MRI,CLOSED,,NO,,,2026-10-03
+WC-1177,OBL-0359,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1178,OBL-0360,DIAGNOSTIC_IMAGING,Hip MRI,CLOSED,,NO,,,2026-10-03
+WC-1178,OBL-0361,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,NON_AUTHORITATIVE_EVIDENCE_ONLY,NO,,authoritative authorization determination,2026-10-03
+WC-1179,OBL-0362,SPECIALIST_CONSULT,Spine specialist consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1179,OBL-0363,DIAGNOSTIC_IMAGING,Cervical MRI,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative imaging completion status,2026-10-03
+WC-1180,OBL-0364,DIAGNOSTIC_IMAGING,Shoulder MRI,CLOSED,,NO,,,2026-10-03
+WC-1180,OBL-0365,SPECIALIST_CONSULT,Hand surgeon consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1181,OBL-0366,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1181,OBL-0367,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1182,OBL-0368,SPECIALIST_CONSULT,Pain management consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1182,OBL-0369,DIAGNOSTIC_IMAGING,Wrist CT,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1182,OBL-0370,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1183,OBL-0371,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CANCELLED,,NO,,,2026-10-03
+WC-1183,OBL-0372,DIAGNOSTIC_IMAGING,Wrist CT,CLOSED,,NO,,,2026-10-03
+WC-1184,OBL-0373,SPECIALIST_CONSULT,Hand surgeon consultation,SUPERSEDED,,NO,,,2026-10-03
+WC-1184,OBL-0374,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1184,OBL-0375,DIAGNOSTIC_IMAGING,Lumbar MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1185,OBL-0376,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1185,OBL-0377,DIAGNOSTIC_IMAGING,Shoulder MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1185,OBL-0378,SPECIALIST_CONSULT,Pain management consultation,CLOSED,,NO,,,2026-10-03
+WC-1186,OBL-0379,SPECIALIST_CONSULT,Neurology consultation,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing referral event sequence,2026-10-03
+WC-1186,OBL-0380,DIAGNOSTIC_IMAGING,Wrist CT,OPEN,,NO,prior imaging records,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1187,OBL-0381,DIAGNOSTIC_IMAGING,Lumbar MRI,CLOSED,,NO,,,2026-10-03
+WC-1187,OBL-0382,AUTHORIZATION_REQUEST,Occupational therapy authorization,CLOSED,,NO,,,2026-10-03
+WC-1188,OBL-0383,SPECIALIST_CONSULT,Neurology consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1189,OBL-0384,AUTHORIZATION_REQUEST,Facet injection authorization,UNVERIFIABLE,CONTRADICTORY_EVIDENCE,NO,,resolved authoritative authorization determination,2026-10-03
+WC-1189,OBL-0385,SPECIALIST_CONSULT,Neurology consultation,CLOSED,,NO,,,2026-10-03
+WC-1190,OBL-0386,DIAGNOSTIC_IMAGING,Lumbar MRI,CLOSED,,NO,,,2026-10-03
+WC-1190,OBL-0387,AUTHORIZATION_REQUEST,Work conditioning authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1190,OBL-0388,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,signed referral,specialist encounter evidence and consultation report,2026-10-03
+WC-1191,OBL-0389,DIAGNOSTIC_IMAGING,Shoulder MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03
+WC-1192,OBL-0390,SPECIALIST_CONSULT,Foot and ankle consultation,CLOSED,,NO,,,2026-10-03
+WC-1192,OBL-0391,AUTHORIZATION_REQUEST,Aquatic therapy authorization,CANCELLED,,NO,,,2026-10-03
+WC-1193,OBL-0392,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,prior imaging records,specialist encounter evidence and consultation report,2026-10-03
+WC-1193,OBL-0393,DIAGNOSTIC_IMAGING,Shoulder MRI,CLOSED,,NO,,,2026-10-03
+WC-1193,OBL-0394,AUTHORIZATION_REQUEST,Aquatic therapy authorization,SUPERSEDED,,NO,,,2026-10-03
+WC-1194,OBL-0395,SPECIALIST_CONSULT,Orthopedic consultation,CLOSED,,NO,,,2026-10-03
+WC-1194,OBL-0396,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1195,OBL-0397,AUTHORIZATION_REQUEST,Aquatic therapy authorization,UNVERIFIABLE,NO_EVIDENCE,NO,,authoritative authorization determination,2026-10-03
+WC-1195,OBL-0398,DIAGNOSTIC_IMAGING,Hip MRI,CLOSED,,NO,,,2026-10-03
+WC-1196,OBL-0399,DIAGNOSTIC_IMAGING,Hip MRI,OPEN,,NO,authorization approval,authoritative imaging completion evidence and radiology report,2026-10-03
+WC-1196,OBL-0400,SPECIALIST_CONSULT,Hand surgeon consultation,UNVERIFIABLE,NO_EVIDENCE,YES,,authoritative specialist encounter evidence and consultation report,2026-10-03
+WC-1196,OBL-0401,AUTHORIZATION_REQUEST,Work conditioning authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1197,OBL-0402,SPECIALIST_CONSULT,Spine specialist consultation,CLOSED,,NO,,,2026-10-03
+WC-1197,OBL-0403,DIAGNOSTIC_IMAGING,Shoulder MRI,CANCELLED,,NO,,,2026-10-03
+WC-1198,OBL-0404,AUTHORIZATION_REQUEST,Epidural injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1198,OBL-0405,SPECIALIST_CONSULT,Hand surgeon consultation,OPEN,,NO,supporting medical records,specialist encounter evidence and consultation report,2026-10-03
+WC-1199,OBL-0406,AUTHORIZATION_REQUEST,Facet injection authorization,OPEN,,NO,supporting medical records,authorization determination,2026-10-03
+WC-1199,OBL-0407,SPECIALIST_CONSULT,Orthopedic consultation,CLOSED,,NO,,,2026-10-03
+WC-1200,OBL-0408,DIAGNOSTIC_IMAGING,Cervical MRI,UNVERIFIABLE,TEMPORALLY_INDETERMINATE,NO,,dated evidence establishing the sequence of imaging events,2026-10-03

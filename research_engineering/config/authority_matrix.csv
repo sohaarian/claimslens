@@ -1,0 +1,13 @@
+source_type,proposition,authority_level,interpretation
+treating_physician_note,ORDER_OR_RECOMMENDATION,AUTHORITATIVE,Direct evidence that a clinical recommendation/order was made.
+specialist_clinic,REFERRAL_ACCEPTED,AUTHORITATIVE,Direct evidence that the receiving clinic accepted the referral.
+specialist_clinic,APPOINTMENT_COMPLETED,AUTHORITATIVE,Direct provider-side evidence of specialist encounter completion.
+specialist_report,REPORT_AVAILABLE,AUTHORITATIVE,Direct evidence that specialist documentation exists.
+imaging_facility,STUDY_COMPLETED,AUTHORITATIVE,Direct facility-side evidence that imaging occurred.
+radiology_report,REPORT_AVAILABLE,AUTHORITATIVE,Direct evidence that an interpreted imaging report exists.
+payer_determination,AUTHORIZATION_DECISION,AUTHORITATIVE,Direct payer/UR evidence of authorization outcome.
+ncm_note,COORDINATION_ACTION,AUTHORITATIVE_FOR_COORDINATION,Direct evidence of NCM coordination action.
+ncm_note,STUDY_COMPLETED,NON_AUTHORITATIVE_FOR_COMPLETION,May report completion but does not independently prove facility completion.
+ncm_note,APPOINTMENT_COMPLETED,NON_AUTHORITATIVE_FOR_COMPLETION,May report completion but does not independently prove provider encounter.
+worker_report,STUDY_COMPLETED,REPORTED_ONLY,Useful contextual evidence; not equivalent to provider/facility documentation.
+worker_report,APPOINTMENT_COMPLETED,REPORTED_ONLY,Useful contextual evidence; not equivalent to provider documentation.

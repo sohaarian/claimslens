@@ -1,0 +1,12 @@
+slice_dimension,slice_value,n,accuracy,macro_f1,false_reassurance_count,excessive_abstention_count
+obligation_type,AUTHORIZATION_REQUEST,80,0.975,0.9662,0,2
+obligation_type,DIAGNOSTIC_IMAGING,80,0.9375,0.9314,0,0
+obligation_type,SPECIALIST_CONSULT,80,0.9375,0.9228,0,2
+difficulty,EASY,75,0.9867,0.5959,0,1
+difficulty,HARD,70,0.9143,0.713,0,3
+difficulty,MODERATE,95,0.9474,0.9624,0,0
+gold_state,CANCELLED,35,1.0,0.2,0,0
+gold_state,CLOSED,50,1.0,0.2,0,0
+gold_state,OPEN,50,0.98,0.198,0,1
+gold_state,SUPERSEDED,35,0.8286,0.1812,0,3
+gold_state,UNVERIFIABLE,70,0.9286,0.1926,0,0

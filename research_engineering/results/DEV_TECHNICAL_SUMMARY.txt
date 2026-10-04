@@ -1,0 +1,29 @@
+CLAIMSLENS V2 — RESEARCH ENGINEERING DEV SUMMARY
+========================================================================
+
+Episodes: 48
+Repeated runs per episode: 5
+Total predictions: 240
+
+Accuracy: 0.950 (95% bootstrap CI 0.921-0.975)
+Macro F1: 0.950 (95% bootstrap CI 0.921-0.975)
+Perfect state stability: 93.8%
+False reassurance count: 0
+False reassurance rate among CLOSED predictions: 0.0%
+Excessive abstention rate: 2.4%
+Mean safety-weighted error: 0.263
+
+PER-STATE PERFORMANCE
+------------------------------------------------------------------------
+OPEN            P=0.875 R=0.980 F1=0.925
+CLOSED          P=1.000 R=1.000 F1=1.000
+CANCELLED       P=0.972 R=1.000 F1=0.986
+SUPERSEDED      P=1.000 R=0.829 F1=0.906
+UNVERIFIABLE    P=0.942 R=0.929 F1=0.935
+
+KNOWN DEVELOPMENT GAPS
+------------------------------------------------------------------------
+Blocker/prerequisite F1: 0.000
+UNVERIFIABLE reason accuracy: 0.571
+
+IMPORTANT: These are DEV results and are not final untouched V2 generalization estimates.

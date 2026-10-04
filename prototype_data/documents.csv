@@ -1,0 +1,1121 @@
+claim_id,obligation_id,document_id,event_date,source_type,author_role,document_text
+WC-1001,OBL-0001,OBL-0001-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1001,OBL-0001,OBL-0001-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1001,OBL-0001,OBL-0001-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1001,OBL-0002,OBL-0002-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1001,OBL-0002,OBL-0002-DOC-02,,imaging_facility,imaging_facility_staff,"Lumbar MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1001,OBL-0002,OBL-0002-DOC-03,2026-09-14,treating_physician_note,treating_physician,Lumbar MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1001,OBL-0003,OBL-0003-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1001,OBL-0003,OBL-0003-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1001,OBL-0003,OBL-0003-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1002,OBL-0004,OBL-0004-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1002,OBL-0004,OBL-0004-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1002,OBL-0004,OBL-0004-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1002,OBL-0005,OBL-0005-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1002,OBL-0005,OBL-0005-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1002,OBL-0005,OBL-0005-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1002,OBL-0005,OBL-0005-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1002,OBL-0006,OBL-0006-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1002,OBL-0006,OBL-0006-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Wrist CT scheduled for 2026-09-27.
+WC-1003,OBL-0007,OBL-0007-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1003,OBL-0007,OBL-0007-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Shoulder MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1003,OBL-0008,OBL-0008-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1003,OBL-0008,OBL-0008-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1003,OBL-0008,OBL-0008-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1004,OBL-0009,OBL-0009-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1004,OBL-0009,OBL-0009-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Shoulder MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1005,OBL-0010,OBL-0010-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1005,OBL-0010,OBL-0010-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1005,OBL-0010,OBL-0010-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1006,OBL-0011,OBL-0011-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1006,OBL-0011,OBL-0011-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1006,OBL-0011,OBL-0011-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1006,OBL-0012,OBL-0012-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1006,OBL-0012,OBL-0012-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1006,OBL-0012,OBL-0012-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1007,OBL-0013,OBL-0013-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1007,OBL-0013,OBL-0013-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1007,OBL-0013,OBL-0013-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1007,OBL-0014,OBL-0014-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1007,OBL-0014,OBL-0014-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Wrist CT is on hold until prior imaging records are received.
+WC-1007,OBL-0015,OBL-0015-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1007,OBL-0015,OBL-0015-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1007,OBL-0015,OBL-0015-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1008,OBL-0016,OBL-0016-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1008,OBL-0016,OBL-0016-DOC-02,2026-09-14,treating_physician_note,treating_physician,Hip MRI cancelled because imaging is no longer indicated.
+WC-1008,OBL-0017,OBL-0017-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1008,OBL-0017,OBL-0017-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1008,OBL-0017,OBL-0017-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1008,OBL-0018,OBL-0018-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1008,OBL-0018,OBL-0018-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1009,OBL-0019,OBL-0019-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1009,OBL-0019,OBL-0019-DOC-02,2026-09-23,imaging_facility,imaging_facility_staff,Shoulder MRI performed today.
+WC-1009,OBL-0019,OBL-0019-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Patient did not appear for the scheduled Shoulder MRI.
+WC-1009,OBL-0020,OBL-0020-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1009,OBL-0020,OBL-0020-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1009,OBL-0020,OBL-0020-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1009,OBL-0020,OBL-0020-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1010,OBL-0021,OBL-0021-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1010,OBL-0021,OBL-0021-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Cervical MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1010,OBL-0022,OBL-0022-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1010,OBL-0022,OBL-0022-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1010,OBL-0022,OBL-0022-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1010,OBL-0023,OBL-0023-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1010,OBL-0023,OBL-0023-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1010,OBL-0023,OBL-0023-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1011,OBL-0024,OBL-0024-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1011,OBL-0024,OBL-0024-DOC-02,2026-09-14,treating_physician_note,treating_physician,Knee MRI cancelled because imaging is no longer indicated.
+WC-1011,OBL-0025,OBL-0025-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1011,OBL-0025,OBL-0025-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1011,OBL-0025,OBL-0025-DOC-03,2026-09-23,ncm_note,nurse_case_manager,Worker reports that the specialist consultation was completed yesterday.
+WC-1012,OBL-0026,OBL-0026-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1012,OBL-0026,OBL-0026-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1012,OBL-0027,OBL-0027-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1012,OBL-0027,OBL-0027-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1012,OBL-0027,OBL-0027-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1013,OBL-0028,OBL-0028-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1013,OBL-0028,OBL-0028-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1013,OBL-0028,OBL-0028-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1013,OBL-0029,OBL-0029-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1013,OBL-0029,OBL-0029-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1013,OBL-0029,OBL-0029-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1014,OBL-0030,OBL-0030-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1014,OBL-0030,OBL-0030-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1014,OBL-0031,OBL-0031-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1014,OBL-0031,OBL-0031-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1014,OBL-0031,OBL-0031-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1015,OBL-0032,OBL-0032-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1015,OBL-0032,OBL-0032-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Wrist CT.
+WC-1015,OBL-0032,OBL-0032-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Wrist CT performed today.
+WC-1015,OBL-0032,OBL-0032-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Wrist CT is available with findings and impression.
+WC-1015,OBL-0033,OBL-0033-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1015,OBL-0033,OBL-0033-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1015,OBL-0033,OBL-0033-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1016,OBL-0034,OBL-0034-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1016,OBL-0034,OBL-0034-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1016,OBL-0034,OBL-0034-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1016,OBL-0035,OBL-0035-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1016,OBL-0035,OBL-0035-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1016,OBL-0035,OBL-0035-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1017,OBL-0036,OBL-0036-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1017,OBL-0036,OBL-0036-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1017,OBL-0036,OBL-0036-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1017,OBL-0037,OBL-0037-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1017,OBL-0037,OBL-0037-DOC-02,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1017,OBL-0037,OBL-0037-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Patient did not appear for the scheduled Cervical MRI.
+WC-1017,OBL-0038,OBL-0038-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1017,OBL-0038,OBL-0038-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1018,OBL-0039,OBL-0039-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1018,OBL-0039,OBL-0039-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1018,OBL-0040,OBL-0040-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1018,OBL-0040,OBL-0040-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1018,OBL-0040,OBL-0040-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1019,OBL-0041,OBL-0041-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1019,OBL-0041,OBL-0041-DOC-02,2026-09-23,ncm_note,nurse_case_manager,Worker reports that Knee MRI was completed yesterday.
+WC-1019,OBL-0042,OBL-0042-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1019,OBL-0042,OBL-0042-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1019,OBL-0042,OBL-0042-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1020,OBL-0043,OBL-0043-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1020,OBL-0043,OBL-0043-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1020,OBL-0043,OBL-0043-DOC-03,2026-09-23,ncm_note,nurse_case_manager,Worker reports that the specialist consultation was completed yesterday.
+WC-1021,OBL-0044,OBL-0044-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1021,OBL-0044,OBL-0044-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1021,OBL-0044,OBL-0044-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1021,OBL-0045,OBL-0045-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1021,OBL-0045,OBL-0045-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1021,OBL-0045,OBL-0045-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1022,OBL-0046,OBL-0046-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1022,OBL-0046,OBL-0046-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1022,OBL-0046,OBL-0046-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1022,OBL-0047,OBL-0047-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1022,OBL-0047,OBL-0047-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Shoulder MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1022,OBL-0048,OBL-0048-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1022,OBL-0048,OBL-0048-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1022,OBL-0048,OBL-0048-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1022,OBL-0048,OBL-0048-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1023,OBL-0049,OBL-0049-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1023,OBL-0049,OBL-0049-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1023,OBL-0049,OBL-0049-DOC-03,2026-09-23,ncm_note,nurse_case_manager,Worker reports that the specialist consultation was completed yesterday.
+WC-1023,OBL-0050,OBL-0050-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1023,OBL-0050,OBL-0050-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1023,OBL-0050,OBL-0050-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1023,OBL-0051,OBL-0051-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1023,OBL-0051,OBL-0051-DOC-02,,imaging_facility,imaging_facility_staff,"Cervical MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1023,OBL-0051,OBL-0051-DOC-03,2026-09-14,treating_physician_note,treating_physician,Cervical MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1024,OBL-0052,OBL-0052-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1024,OBL-0052,OBL-0052-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Shoulder MRI is on hold until prior imaging records are received.
+WC-1024,OBL-0053,OBL-0053-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1024,OBL-0053,OBL-0053-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1024,OBL-0053,OBL-0053-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1024,OBL-0053,OBL-0053-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1025,OBL-0054,OBL-0054-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1025,OBL-0054,OBL-0054-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1025,OBL-0054,OBL-0054-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1026,OBL-0055,OBL-0055-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1026,OBL-0055,OBL-0055-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Hip MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1026,OBL-0056,OBL-0056-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1026,OBL-0057,OBL-0057-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1026,OBL-0057,OBL-0057-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1026,OBL-0057,OBL-0057-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1027,OBL-0058,OBL-0058-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1027,OBL-0058,OBL-0058-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral accepted. Appointment scheduled for 2026-09-27.
+WC-1028,OBL-0059,OBL-0059-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1028,OBL-0059,OBL-0059-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1028,OBL-0060,OBL-0060-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1028,OBL-0060,OBL-0060-DOC-02,2026-09-14,treating_physician_note,treating_physician,Hip MRI cancelled because imaging is no longer indicated.
+WC-1029,OBL-0061,OBL-0061-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1029,OBL-0061,OBL-0061-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1029,OBL-0061,OBL-0061-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1030,OBL-0062,OBL-0062-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1030,OBL-0062,OBL-0062-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Knee MRI.
+WC-1030,OBL-0062,OBL-0062-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Knee MRI performed today.
+WC-1030,OBL-0062,OBL-0062-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Knee MRI is available with findings and impression.
+WC-1030,OBL-0063,OBL-0063-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1030,OBL-0063,OBL-0063-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1031,OBL-0064,OBL-0064-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1031,OBL-0064,OBL-0064-DOC-02,2026-09-14,treating_physician_note,treating_physician,Knee MRI cancelled because imaging is no longer indicated.
+WC-1031,OBL-0065,OBL-0065-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1031,OBL-0065,OBL-0065-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1031,OBL-0065,OBL-0065-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1031,OBL-0066,OBL-0066-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1031,OBL-0066,OBL-0066-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1032,OBL-0067,OBL-0067-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1032,OBL-0067,OBL-0067-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1032,OBL-0067,OBL-0067-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1032,OBL-0068,OBL-0068-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1032,OBL-0068,OBL-0068-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Lumbar MRI.
+WC-1032,OBL-0068,OBL-0068-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Lumbar MRI performed today.
+WC-1032,OBL-0068,OBL-0068-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Lumbar MRI is available with findings and impression.
+WC-1033,OBL-0069,OBL-0069-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1033,OBL-0069,OBL-0069-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1033,OBL-0070,OBL-0070-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1033,OBL-0070,OBL-0070-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1033,OBL-0070,OBL-0070-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1034,OBL-0071,OBL-0071-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1034,OBL-0071,OBL-0071-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1034,OBL-0071,OBL-0071-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1034,OBL-0072,OBL-0072-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1034,OBL-0072,OBL-0072-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1034,OBL-0072,OBL-0072-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1035,OBL-0073,OBL-0073-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1035,OBL-0073,OBL-0073-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Wrist CT scheduled for 2026-09-27.
+WC-1035,OBL-0074,OBL-0074-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1035,OBL-0074,OBL-0074-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1036,OBL-0075,OBL-0075-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1036,OBL-0075,OBL-0075-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1036,OBL-0075,OBL-0075-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1036,OBL-0076,OBL-0076-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1036,OBL-0076,OBL-0076-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI discontinued. A different imaging study replaces the original order.
+WC-1036,OBL-0077,OBL-0077-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1036,OBL-0077,OBL-0077-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1036,OBL-0077,OBL-0077-DOC-03,2026-09-23,ncm_note,nurse_case_manager,Worker reports that the specialist consultation was completed yesterday.
+WC-1037,OBL-0078,OBL-0078-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1037,OBL-0078,OBL-0078-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1037,OBL-0078,OBL-0078-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1037,OBL-0079,OBL-0079-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1037,OBL-0079,OBL-0079-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1037,OBL-0079,OBL-0079-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1038,OBL-0080,OBL-0080-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1038,OBL-0080,OBL-0080-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1038,OBL-0080,OBL-0080-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1039,OBL-0081,OBL-0081-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1039,OBL-0081,OBL-0081-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral accepted. Appointment scheduled for 2026-09-27.
+WC-1039,OBL-0082,OBL-0082-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1039,OBL-0082,OBL-0082-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1039,OBL-0082,OBL-0082-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1039,OBL-0083,OBL-0083-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1039,OBL-0083,OBL-0083-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Lumbar MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1040,OBL-0084,OBL-0084-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1040,OBL-0084,OBL-0084-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI cancelled because imaging is no longer indicated.
+WC-1041,OBL-0085,OBL-0085-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1041,OBL-0085,OBL-0085-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1041,OBL-0085,OBL-0085-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1041,OBL-0085,OBL-0085-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1041,OBL-0086,OBL-0086-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1041,OBL-0086,OBL-0086-DOC-02,2026-09-14,treating_physician_note,treating_physician,Cervical MRI cancelled because imaging is no longer indicated.
+WC-1042,OBL-0087,OBL-0087-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1042,OBL-0087,OBL-0087-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1042,OBL-0088,OBL-0088-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1042,OBL-0088,OBL-0088-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Knee MRI is on hold until prior imaging records are received.
+WC-1042,OBL-0089,OBL-0089-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1042,OBL-0089,OBL-0089-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1042,OBL-0089,OBL-0089-DOC-03,2026-09-23,ncm_note,nurse_case_manager,Worker reports that the specialist consultation was completed yesterday.
+WC-1043,OBL-0090,OBL-0090-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1043,OBL-0090,OBL-0090-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Cervical MRI.
+WC-1043,OBL-0090,OBL-0090-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1043,OBL-0090,OBL-0090-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Cervical MRI is available with findings and impression.
+WC-1043,OBL-0091,OBL-0091-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1044,OBL-0092,OBL-0092-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1044,OBL-0092,OBL-0092-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1044,OBL-0093,OBL-0093-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1044,OBL-0093,OBL-0093-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1044,OBL-0093,OBL-0093-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1045,OBL-0094,OBL-0094-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1045,OBL-0094,OBL-0094-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1045,OBL-0094,OBL-0094-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1045,OBL-0095,OBL-0095-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1045,OBL-0095,OBL-0095-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Wrist CT.
+WC-1045,OBL-0095,OBL-0095-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Wrist CT performed today.
+WC-1045,OBL-0095,OBL-0095-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Wrist CT is available with findings and impression.
+WC-1046,OBL-0096,OBL-0096-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1046,OBL-0096,OBL-0096-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1047,OBL-0097,OBL-0097-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1047,OBL-0097,OBL-0097-DOC-02,2026-09-14,treating_physician_note,treating_physician,Wrist CT cancelled because imaging is no longer indicated.
+WC-1048,OBL-0098,OBL-0098-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1048,OBL-0098,OBL-0098-DOC-02,2026-09-14,treating_physician_note,treating_physician,Wrist CT cancelled because imaging is no longer indicated.
+WC-1048,OBL-0099,OBL-0099-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1048,OBL-0099,OBL-0099-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1048,OBL-0099,OBL-0099-DOC-03,2026-09-23,ncm_note,nurse_case_manager,Worker reports that the specialist consultation was completed yesterday.
+WC-1049,OBL-0100,OBL-0100-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1049,OBL-0100,OBL-0100-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1049,OBL-0101,OBL-0101-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1049,OBL-0101,OBL-0101-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1049,OBL-0101,OBL-0101-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1050,OBL-0102,OBL-0102-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1050,OBL-0102,OBL-0102-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1050,OBL-0103,OBL-0103-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1050,OBL-0103,OBL-0103-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1050,OBL-0103,OBL-0103-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1051,OBL-0104,OBL-0104-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1051,OBL-0105,OBL-0105-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1051,OBL-0105,OBL-0105-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1051,OBL-0105,OBL-0105-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1052,OBL-0106,OBL-0106-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1052,OBL-0106,OBL-0106-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1052,OBL-0106,OBL-0106-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1053,OBL-0107,OBL-0107-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1053,OBL-0107,OBL-0107-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1053,OBL-0108,OBL-0108-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1053,OBL-0108,OBL-0108-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1053,OBL-0108,OBL-0108-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1053,OBL-0109,OBL-0109-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1053,OBL-0109,OBL-0109-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Knee MRI.
+WC-1053,OBL-0109,OBL-0109-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Knee MRI performed today.
+WC-1053,OBL-0109,OBL-0109-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Knee MRI is available with findings and impression.
+WC-1054,OBL-0110,OBL-0110-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1054,OBL-0110,OBL-0110-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1054,OBL-0110,OBL-0110-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1054,OBL-0111,OBL-0111-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1054,OBL-0111,OBL-0111-DOC-02,,payer_determination,payer,The authorization request was approved earlier this month.
+WC-1054,OBL-0111,OBL-0111-DOC-03,2026-09-14,provider_note,provider,Authorization request withdrawn effective today because the treatment strategy changed.
+WC-1055,OBL-0112,OBL-0112-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1055,OBL-0112,OBL-0112-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1055,OBL-0112,OBL-0112-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1055,OBL-0113,OBL-0113-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1055,OBL-0113,OBL-0113-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Lumbar MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1055,OBL-0114,OBL-0114-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1055,OBL-0114,OBL-0114-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1055,OBL-0114,OBL-0114-DOC-03,2026-09-23,ncm_note,nurse_case_manager,Worker reports that the specialist consultation was completed yesterday.
+WC-1056,OBL-0115,OBL-0115-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1056,OBL-0115,OBL-0115-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1056,OBL-0115,OBL-0115-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1057,OBL-0116,OBL-0116-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1057,OBL-0116,OBL-0116-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1057,OBL-0116,OBL-0116-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1058,OBL-0117,OBL-0117-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1058,OBL-0117,OBL-0117-DOC-02,2026-09-23,ncm_note,nurse_case_manager,"Worker reports that authorization was approved, but no payer or utilization-review determination is present."
+WC-1059,OBL-0118,OBL-0118-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1059,OBL-0118,OBL-0118-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1059,OBL-0118,OBL-0118-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1059,OBL-0119,OBL-0119-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1059,OBL-0119,OBL-0119-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Wrist CT.
+WC-1059,OBL-0119,OBL-0119-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Wrist CT performed today.
+WC-1059,OBL-0119,OBL-0119-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Wrist CT is available with findings and impression.
+WC-1060,OBL-0120,OBL-0120-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1060,OBL-0120,OBL-0120-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1060,OBL-0120,OBL-0120-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1060,OBL-0121,OBL-0121-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1060,OBL-0121,OBL-0121-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1060,OBL-0121,OBL-0121-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1061,OBL-0122,OBL-0122-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1061,OBL-0122,OBL-0122-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1061,OBL-0122,OBL-0122-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1061,OBL-0123,OBL-0123-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1061,OBL-0123,OBL-0123-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1061,OBL-0123,OBL-0123-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1062,OBL-0124,OBL-0124-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1062,OBL-0124,OBL-0124-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI discontinued. A different imaging study replaces the original order.
+WC-1062,OBL-0125,OBL-0125-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1062,OBL-0125,OBL-0125-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1063,OBL-0126,OBL-0126-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1063,OBL-0126,OBL-0126-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral accepted. Appointment scheduled for 2026-09-27.
+WC-1063,OBL-0127,OBL-0127-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1063,OBL-0127,OBL-0127-DOC-02,2026-09-14,treating_physician_note,treating_physician,Wrist CT discontinued. A different imaging study replaces the original order.
+WC-1063,OBL-0128,OBL-0128-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1063,OBL-0128,OBL-0128-DOC-02,,payer_determination,payer,The authorization request was approved earlier this month.
+WC-1063,OBL-0128,OBL-0128-DOC-03,2026-09-14,provider_note,provider,Authorization request withdrawn effective today because the treatment strategy changed.
+WC-1064,OBL-0129,OBL-0129-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1064,OBL-0129,OBL-0129-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1064,OBL-0129,OBL-0129-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1064,OBL-0130,OBL-0130-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1064,OBL-0130,OBL-0130-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1064,OBL-0130,OBL-0130-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1064,OBL-0130,OBL-0130-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1065,OBL-0131,OBL-0131-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1065,OBL-0131,OBL-0131-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Knee MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1065,OBL-0132,OBL-0132-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1065,OBL-0132,OBL-0132-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1065,OBL-0132,OBL-0132-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1066,OBL-0133,OBL-0133-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1066,OBL-0134,OBL-0134-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1066,OBL-0134,OBL-0134-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1066,OBL-0134,OBL-0134-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1066,OBL-0134,OBL-0134-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1067,OBL-0135,OBL-0135-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1067,OBL-0135,OBL-0135-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1067,OBL-0136,OBL-0136-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1067,OBL-0136,OBL-0136-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1068,OBL-0137,OBL-0137-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1068,OBL-0137,OBL-0137-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1068,OBL-0137,OBL-0137-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1068,OBL-0138,OBL-0138-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1068,OBL-0138,OBL-0138-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1068,OBL-0138,OBL-0138-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1069,OBL-0139,OBL-0139-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1069,OBL-0139,OBL-0139-DOC-02,2026-09-23,ncm_note,nurse_case_manager,"Worker reports that authorization was approved, but no payer or utilization-review determination is present."
+WC-1069,OBL-0140,OBL-0140-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1069,OBL-0140,OBL-0140-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1070,OBL-0141,OBL-0141-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1070,OBL-0141,OBL-0141-DOC-02,2026-09-23,ncm_note,nurse_case_manager,"Worker reports that authorization was approved, but no payer or utilization-review determination is present."
+WC-1070,OBL-0142,OBL-0142-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1070,OBL-0142,OBL-0142-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1070,OBL-0142,OBL-0142-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1070,OBL-0143,OBL-0143-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1070,OBL-0143,OBL-0143-DOC-02,2026-09-14,treating_physician_note,treating_physician,Knee MRI discontinued. A different imaging study replaces the original order.
+WC-1071,OBL-0144,OBL-0144-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1071,OBL-0144,OBL-0144-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1072,OBL-0145,OBL-0145-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1072,OBL-0145,OBL-0145-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1072,OBL-0145,OBL-0145-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1072,OBL-0146,OBL-0146-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1072,OBL-0146,OBL-0146-DOC-02,,payer_determination,payer,The authorization request was approved earlier this month.
+WC-1072,OBL-0146,OBL-0146-DOC-03,2026-09-14,provider_note,provider,Authorization request withdrawn effective today because the treatment strategy changed.
+WC-1073,OBL-0147,OBL-0147-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1073,OBL-0147,OBL-0147-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1073,OBL-0147,OBL-0147-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1073,OBL-0148,OBL-0148-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1073,OBL-0148,OBL-0148-DOC-02,2026-09-14,treating_physician_note,treating_physician,Knee MRI cancelled because imaging is no longer indicated.
+WC-1074,OBL-0149,OBL-0149-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1074,OBL-0149,OBL-0149-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1074,OBL-0149,OBL-0149-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1074,OBL-0149,OBL-0149-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1074,OBL-0150,OBL-0150-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1074,OBL-0150,OBL-0150-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1074,OBL-0150,OBL-0150-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1075,OBL-0151,OBL-0151-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1075,OBL-0151,OBL-0151-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1075,OBL-0151,OBL-0151-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1075,OBL-0152,OBL-0152-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1075,OBL-0152,OBL-0152-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Knee MRI.
+WC-1075,OBL-0152,OBL-0152-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Knee MRI performed today.
+WC-1075,OBL-0152,OBL-0152-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Knee MRI is available with findings and impression.
+WC-1075,OBL-0153,OBL-0153-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1075,OBL-0153,OBL-0153-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1075,OBL-0153,OBL-0153-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1076,OBL-0154,OBL-0154-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1076,OBL-0154,OBL-0154-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1076,OBL-0154,OBL-0154-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1076,OBL-0155,OBL-0155-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1076,OBL-0155,OBL-0155-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1076,OBL-0155,OBL-0155-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1077,OBL-0156,OBL-0156-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1077,OBL-0156,OBL-0156-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1077,OBL-0156,OBL-0156-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1077,OBL-0157,OBL-0157-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1077,OBL-0157,OBL-0157-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Cervical MRI.
+WC-1077,OBL-0157,OBL-0157-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1077,OBL-0157,OBL-0157-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Cervical MRI is available with findings and impression.
+WC-1077,OBL-0158,OBL-0158-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1077,OBL-0158,OBL-0158-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1077,OBL-0158,OBL-0158-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1078,OBL-0159,OBL-0159-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1078,OBL-0159,OBL-0159-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1078,OBL-0159,OBL-0159-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1078,OBL-0160,OBL-0160-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1078,OBL-0160,OBL-0160-DOC-02,2026-09-23,imaging_facility,imaging_facility_staff,Shoulder MRI performed today.
+WC-1078,OBL-0160,OBL-0160-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Patient did not appear for the scheduled Shoulder MRI.
+WC-1079,OBL-0161,OBL-0161-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1079,OBL-0161,OBL-0161-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1079,OBL-0161,OBL-0161-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1080,OBL-0162,OBL-0162-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1080,OBL-0162,OBL-0162-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1080,OBL-0162,OBL-0162-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1080,OBL-0162,OBL-0162-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1081,OBL-0163,OBL-0163-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1081,OBL-0163,OBL-0163-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1081,OBL-0163,OBL-0163-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1081,OBL-0164,OBL-0164-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1081,OBL-0164,OBL-0164-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1081,OBL-0164,OBL-0164-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1082,OBL-0165,OBL-0165-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1082,OBL-0165,OBL-0165-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Wrist CT.
+WC-1082,OBL-0165,OBL-0165-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Wrist CT performed today.
+WC-1082,OBL-0165,OBL-0165-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Wrist CT is available with findings and impression.
+WC-1082,OBL-0166,OBL-0166-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1082,OBL-0166,OBL-0166-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1082,OBL-0166,OBL-0166-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1083,OBL-0167,OBL-0167-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1083,OBL-0167,OBL-0167-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI cancelled because imaging is no longer indicated.
+WC-1083,OBL-0168,OBL-0168-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1083,OBL-0168,OBL-0168-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1083,OBL-0168,OBL-0168-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1084,OBL-0169,OBL-0169-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1084,OBL-0169,OBL-0169-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Shoulder MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1084,OBL-0170,OBL-0170-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1084,OBL-0170,OBL-0170-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1084,OBL-0170,OBL-0170-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1084,OBL-0170,OBL-0170-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1084,OBL-0171,OBL-0171-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1084,OBL-0171,OBL-0171-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1084,OBL-0171,OBL-0171-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1085,OBL-0172,OBL-0172-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1085,OBL-0172,OBL-0172-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1085,OBL-0173,OBL-0173-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1085,OBL-0173,OBL-0173-DOC-02,2026-09-14,treating_physician_note,treating_physician,Wrist CT cancelled because imaging is no longer indicated.
+WC-1085,OBL-0174,OBL-0174-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1085,OBL-0174,OBL-0174-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1085,OBL-0174,OBL-0174-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1085,OBL-0174,OBL-0174-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1086,OBL-0175,OBL-0175-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1087,OBL-0176,OBL-0176-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1087,OBL-0176,OBL-0176-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1087,OBL-0176,OBL-0176-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1087,OBL-0176,OBL-0176-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1087,OBL-0177,OBL-0177-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1087,OBL-0177,OBL-0177-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1087,OBL-0177,OBL-0177-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1087,OBL-0178,OBL-0178-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1087,OBL-0178,OBL-0178-DOC-02,2026-09-23,ncm_note,nurse_case_manager,Worker reports that Wrist CT was completed yesterday.
+WC-1088,OBL-0179,OBL-0179-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1088,OBL-0179,OBL-0179-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1088,OBL-0179,OBL-0179-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1089,OBL-0180,OBL-0180-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1089,OBL-0180,OBL-0180-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1089,OBL-0180,OBL-0180-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1089,OBL-0181,OBL-0181-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1089,OBL-0181,OBL-0181-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1089,OBL-0181,OBL-0181-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1089,OBL-0181,OBL-0181-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1090,OBL-0182,OBL-0182-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1090,OBL-0182,OBL-0182-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1090,OBL-0183,OBL-0183-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1090,OBL-0183,OBL-0183-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Lumbar MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1090,OBL-0184,OBL-0184-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1090,OBL-0184,OBL-0184-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1090,OBL-0184,OBL-0184-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1090,OBL-0184,OBL-0184-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1091,OBL-0185,OBL-0185-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1091,OBL-0185,OBL-0185-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1091,OBL-0185,OBL-0185-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1091,OBL-0186,OBL-0186-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1091,OBL-0186,OBL-0186-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1091,OBL-0186,OBL-0186-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1091,OBL-0186,OBL-0186-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1091,OBL-0187,OBL-0187-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1091,OBL-0187,OBL-0187-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Wrist CT.
+WC-1091,OBL-0187,OBL-0187-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Wrist CT performed today.
+WC-1091,OBL-0187,OBL-0187-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Wrist CT is available with findings and impression.
+WC-1092,OBL-0188,OBL-0188-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1092,OBL-0188,OBL-0188-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1092,OBL-0188,OBL-0188-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1093,OBL-0189,OBL-0189-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1093,OBL-0189,OBL-0189-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1093,OBL-0189,OBL-0189-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1094,OBL-0190,OBL-0190-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1094,OBL-0190,OBL-0190-DOC-02,2026-09-23,ncm_note,nurse_case_manager,"Worker reports that authorization was approved, but no payer or utilization-review determination is present."
+WC-1094,OBL-0191,OBL-0191-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1094,OBL-0191,OBL-0191-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral accepted. Appointment scheduled for 2026-09-27.
+WC-1094,OBL-0192,OBL-0192-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1094,OBL-0192,OBL-0192-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Cervical MRI.
+WC-1094,OBL-0192,OBL-0192-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1094,OBL-0192,OBL-0192-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Cervical MRI is available with findings and impression.
+WC-1095,OBL-0193,OBL-0193-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1095,OBL-0193,OBL-0193-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1095,OBL-0193,OBL-0193-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1095,OBL-0193,OBL-0193-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1095,OBL-0194,OBL-0194-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1095,OBL-0194,OBL-0194-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Knee MRI is on hold until prior imaging records are received.
+WC-1095,OBL-0195,OBL-0195-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1095,OBL-0195,OBL-0195-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1096,OBL-0196,OBL-0196-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1096,OBL-0196,OBL-0196-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Cervical MRI.
+WC-1096,OBL-0196,OBL-0196-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1096,OBL-0196,OBL-0196-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Cervical MRI is available with findings and impression.
+WC-1096,OBL-0197,OBL-0197-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1096,OBL-0197,OBL-0197-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1096,OBL-0198,OBL-0198-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1096,OBL-0198,OBL-0198-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1097,OBL-0199,OBL-0199-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1097,OBL-0199,OBL-0199-DOC-02,2026-09-14,treating_physician_note,treating_physician,Lumbar MRI cancelled because imaging is no longer indicated.
+WC-1097,OBL-0200,OBL-0200-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1097,OBL-0200,OBL-0200-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1097,OBL-0200,OBL-0200-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1098,OBL-0201,OBL-0201-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1098,OBL-0201,OBL-0201-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1098,OBL-0202,OBL-0202-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1098,OBL-0202,OBL-0202-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1099,OBL-0203,OBL-0203-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1099,OBL-0203,OBL-0203-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1099,OBL-0204,OBL-0204-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1099,OBL-0204,OBL-0204-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Shoulder MRI.
+WC-1099,OBL-0204,OBL-0204-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Shoulder MRI performed today.
+WC-1099,OBL-0204,OBL-0204-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Shoulder MRI is available with findings and impression.
+WC-1100,OBL-0205,OBL-0205-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1100,OBL-0205,OBL-0205-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1100,OBL-0205,OBL-0205-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1100,OBL-0205,OBL-0205-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1100,OBL-0206,OBL-0206-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1100,OBL-0206,OBL-0206-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Cervical MRI is on hold until prior imaging records are received.
+WC-1100,OBL-0207,OBL-0207-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1101,OBL-0208,OBL-0208-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1101,OBL-0208,OBL-0208-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Lumbar MRI is on hold until prior imaging records are received.
+WC-1102,OBL-0209,OBL-0209-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1102,OBL-0209,OBL-0209-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Hip MRI.
+WC-1102,OBL-0209,OBL-0209-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Hip MRI performed today.
+WC-1102,OBL-0209,OBL-0209-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Hip MRI is available with findings and impression.
+WC-1102,OBL-0210,OBL-0210-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1103,OBL-0211,OBL-0211-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1103,OBL-0211,OBL-0211-DOC-02,2026-09-14,treating_physician_note,treating_physician,Lumbar MRI cancelled because imaging is no longer indicated.
+WC-1103,OBL-0212,OBL-0212-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1103,OBL-0212,OBL-0212-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1103,OBL-0213,OBL-0213-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1103,OBL-0213,OBL-0213-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1104,OBL-0214,OBL-0214-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1104,OBL-0214,OBL-0214-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Wrist CT is on hold until prior imaging records are received.
+WC-1104,OBL-0215,OBL-0215-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1104,OBL-0215,OBL-0215-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1104,OBL-0215,OBL-0215-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1105,OBL-0216,OBL-0216-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1105,OBL-0216,OBL-0216-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1105,OBL-0216,OBL-0216-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1105,OBL-0217,OBL-0217-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1105,OBL-0217,OBL-0217-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Lumbar MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1106,OBL-0218,OBL-0218-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1106,OBL-0218,OBL-0218-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1106,OBL-0218,OBL-0218-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1106,OBL-0219,OBL-0219-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1106,OBL-0219,OBL-0219-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1106,OBL-0219,OBL-0219-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1107,OBL-0220,OBL-0220-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1107,OBL-0220,OBL-0220-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1107,OBL-0220,OBL-0220-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1107,OBL-0221,OBL-0221-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1107,OBL-0221,OBL-0221-DOC-02,2026-09-14,treating_physician_note,treating_physician,Lumbar MRI cancelled because imaging is no longer indicated.
+WC-1108,OBL-0222,OBL-0222-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1108,OBL-0222,OBL-0222-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1108,OBL-0222,OBL-0222-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1108,OBL-0223,OBL-0223-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1108,OBL-0223,OBL-0223-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral accepted. Appointment scheduled for 2026-09-27.
+WC-1109,OBL-0224,OBL-0224-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1109,OBL-0224,OBL-0224-DOC-02,2026-09-23,ncm_note,nurse_case_manager,Worker reports that Shoulder MRI was completed yesterday.
+WC-1110,OBL-0225,OBL-0225-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1110,OBL-0225,OBL-0225-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1110,OBL-0225,OBL-0225-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1110,OBL-0226,OBL-0226-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1110,OBL-0226,OBL-0226-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1110,OBL-0226,OBL-0226-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1111,OBL-0227,OBL-0227-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1111,OBL-0227,OBL-0227-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1111,OBL-0227,OBL-0227-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1111,OBL-0227,OBL-0227-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1111,OBL-0228,OBL-0228-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1111,OBL-0228,OBL-0228-DOC-02,,imaging_facility,imaging_facility_staff,"Knee MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1111,OBL-0228,OBL-0228-DOC-03,2026-09-14,treating_physician_note,treating_physician,Knee MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1111,OBL-0229,OBL-0229-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1111,OBL-0229,OBL-0229-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1111,OBL-0229,OBL-0229-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1112,OBL-0230,OBL-0230-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1112,OBL-0230,OBL-0230-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Wrist CT is on hold until prior imaging records are received.
+WC-1113,OBL-0231,OBL-0231-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1113,OBL-0231,OBL-0231-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Cervical MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1113,OBL-0232,OBL-0232-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1113,OBL-0232,OBL-0232-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1113,OBL-0232,OBL-0232-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1113,OBL-0232,OBL-0232-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1113,OBL-0233,OBL-0233-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1113,OBL-0233,OBL-0233-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1114,OBL-0234,OBL-0234-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1114,OBL-0234,OBL-0234-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI cancelled because imaging is no longer indicated.
+WC-1115,OBL-0235,OBL-0235-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1115,OBL-0235,OBL-0235-DOC-02,2026-09-14,treating_physician_note,treating_physician,Hip MRI discontinued. A different imaging study replaces the original order.
+WC-1115,OBL-0236,OBL-0236-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1115,OBL-0236,OBL-0236-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1115,OBL-0236,OBL-0236-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1116,OBL-0237,OBL-0237-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1116,OBL-0237,OBL-0237-DOC-02,2026-09-14,treating_physician_note,treating_physician,Wrist CT discontinued. A different imaging study replaces the original order.
+WC-1117,OBL-0238,OBL-0238-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1117,OBL-0238,OBL-0238-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1118,OBL-0239,OBL-0239-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1118,OBL-0239,OBL-0239-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1118,OBL-0239,OBL-0239-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1119,OBL-0240,OBL-0240-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1119,OBL-0240,OBL-0240-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1119,OBL-0240,OBL-0240-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1119,OBL-0241,OBL-0241-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1119,OBL-0241,OBL-0241-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1119,OBL-0241,OBL-0241-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1119,OBL-0241,OBL-0241-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1120,OBL-0242,OBL-0242-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1120,OBL-0242,OBL-0242-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1120,OBL-0243,OBL-0243-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1120,OBL-0243,OBL-0243-DOC-02,,payer_determination,payer,The authorization request was approved earlier this month.
+WC-1120,OBL-0243,OBL-0243-DOC-03,2026-09-14,provider_note,provider,Authorization request withdrawn effective today because the treatment strategy changed.
+WC-1121,OBL-0244,OBL-0244-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1121,OBL-0244,OBL-0244-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI discontinued. A different imaging study replaces the original order.
+WC-1121,OBL-0245,OBL-0245-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1121,OBL-0245,OBL-0245-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1121,OBL-0245,OBL-0245-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1122,OBL-0246,OBL-0246-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1122,OBL-0246,OBL-0246-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1122,OBL-0246,OBL-0246-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1122,OBL-0247,OBL-0247-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1122,OBL-0247,OBL-0247-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1122,OBL-0247,OBL-0247-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1123,OBL-0248,OBL-0248-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1123,OBL-0248,OBL-0248-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1123,OBL-0248,OBL-0248-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1123,OBL-0249,OBL-0249-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1123,OBL-0249,OBL-0249-DOC-02,,imaging_facility,imaging_facility_staff,"Hip MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1123,OBL-0249,OBL-0249-DOC-03,2026-09-14,treating_physician_note,treating_physician,Hip MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1124,OBL-0250,OBL-0250-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1124,OBL-0250,OBL-0250-DOC-02,2026-09-23,imaging_facility,imaging_facility_staff,Hip MRI performed today.
+WC-1124,OBL-0250,OBL-0250-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Patient did not appear for the scheduled Hip MRI.
+WC-1124,OBL-0251,OBL-0251-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1125,OBL-0252,OBL-0252-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1125,OBL-0252,OBL-0252-DOC-02,2026-09-14,treating_physician_note,treating_physician,Cervical MRI discontinued. A different imaging study replaces the original order.
+WC-1125,OBL-0253,OBL-0253-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1125,OBL-0253,OBL-0253-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1125,OBL-0253,OBL-0253-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1126,OBL-0254,OBL-0254-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1126,OBL-0254,OBL-0254-DOC-02,2026-09-23,ncm_note,nurse_case_manager,"Worker reports that authorization was approved, but no payer or utilization-review determination is present."
+WC-1127,OBL-0255,OBL-0255-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1127,OBL-0255,OBL-0255-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1127,OBL-0255,OBL-0255-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1127,OBL-0256,OBL-0256-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1127,OBL-0256,OBL-0256-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Shoulder MRI scheduled for 2026-09-27.
+WC-1127,OBL-0257,OBL-0257-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1127,OBL-0257,OBL-0257-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1127,OBL-0257,OBL-0257-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1128,OBL-0258,OBL-0258-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1128,OBL-0258,OBL-0258-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1128,OBL-0258,OBL-0258-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1129,OBL-0259,OBL-0259-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1129,OBL-0259,OBL-0259-DOC-02,2026-09-23,ncm_note,nurse_case_manager,Worker reports that Hip MRI was completed yesterday.
+WC-1129,OBL-0260,OBL-0260-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1129,OBL-0260,OBL-0260-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1129,OBL-0260,OBL-0260-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1129,OBL-0261,OBL-0261-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1129,OBL-0261,OBL-0261-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1129,OBL-0261,OBL-0261-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1130,OBL-0262,OBL-0262-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1130,OBL-0262,OBL-0262-DOC-02,2026-09-23,ncm_note,nurse_case_manager,"Worker reports that authorization was approved, but no payer or utilization-review determination is present."
+WC-1131,OBL-0263,OBL-0263-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1131,OBL-0263,OBL-0263-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1131,OBL-0263,OBL-0263-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1131,OBL-0264,OBL-0264-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1131,OBL-0264,OBL-0264-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Knee MRI is on hold until prior imaging records are received.
+WC-1131,OBL-0265,OBL-0265-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1131,OBL-0265,OBL-0265-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1131,OBL-0265,OBL-0265-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1132,OBL-0266,OBL-0266-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1132,OBL-0266,OBL-0266-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Knee MRI is on hold until prior imaging records are received.
+WC-1132,OBL-0267,OBL-0267-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1132,OBL-0267,OBL-0267-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1132,OBL-0267,OBL-0267-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1133,OBL-0268,OBL-0268-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1133,OBL-0268,OBL-0268-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Cervical MRI.
+WC-1133,OBL-0268,OBL-0268-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1133,OBL-0268,OBL-0268-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Cervical MRI is available with findings and impression.
+WC-1134,OBL-0269,OBL-0269-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1134,OBL-0269,OBL-0269-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1134,OBL-0269,OBL-0269-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1134,OBL-0270,OBL-0270-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1134,OBL-0270,OBL-0270-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1134,OBL-0270,OBL-0270-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1135,OBL-0271,OBL-0271-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1135,OBL-0271,OBL-0271-DOC-02,,imaging_facility,imaging_facility_staff,"Shoulder MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1135,OBL-0271,OBL-0271-DOC-03,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1135,OBL-0272,OBL-0272-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1135,OBL-0272,OBL-0272-DOC-02,,payer_determination,payer,The authorization request was approved earlier this month.
+WC-1135,OBL-0272,OBL-0272-DOC-03,2026-09-14,provider_note,provider,Authorization request withdrawn effective today because the treatment strategy changed.
+WC-1136,OBL-0273,OBL-0273-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1136,OBL-0273,OBL-0273-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1136,OBL-0273,OBL-0273-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1136,OBL-0274,OBL-0274-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1136,OBL-0274,OBL-0274-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Hip MRI is on hold until prior imaging records are received.
+WC-1137,OBL-0275,OBL-0275-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1137,OBL-0275,OBL-0275-DOC-02,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1137,OBL-0275,OBL-0275-DOC-03,2026-09-23,specialist_clinic,specialist_clinic_staff,Patient did not attend the scheduled consultation.
+WC-1138,OBL-0276,OBL-0276-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1138,OBL-0276,OBL-0276-DOC-02,2026-09-14,treating_physician_note,treating_physician,Knee MRI discontinued. A different imaging study replaces the original order.
+WC-1138,OBL-0277,OBL-0277-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1138,OBL-0277,OBL-0277-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1138,OBL-0277,OBL-0277-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1138,OBL-0278,OBL-0278-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1138,OBL-0278,OBL-0278-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1138,OBL-0278,OBL-0278-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1139,OBL-0279,OBL-0279-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1139,OBL-0279,OBL-0279-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1139,OBL-0279,OBL-0279-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1139,OBL-0279,OBL-0279-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1139,OBL-0280,OBL-0280-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1139,OBL-0281,OBL-0281-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1139,OBL-0281,OBL-0281-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Cervical MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1140,OBL-0282,OBL-0282-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1140,OBL-0282,OBL-0282-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1140,OBL-0282,OBL-0282-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1140,OBL-0283,OBL-0283-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1140,OBL-0283,OBL-0283-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1140,OBL-0283,OBL-0283-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1140,OBL-0284,OBL-0284-DOC-01,2026-09-05,treating_physician_note,treating_physician,Knee MRI ordered for further evaluation.
+WC-1140,OBL-0284,OBL-0284-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Knee MRI.
+WC-1140,OBL-0284,OBL-0284-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Knee MRI performed today.
+WC-1140,OBL-0284,OBL-0284-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Knee MRI is available with findings and impression.
+WC-1141,OBL-0285,OBL-0285-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1141,OBL-0285,OBL-0285-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Lumbar MRI.
+WC-1141,OBL-0285,OBL-0285-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Lumbar MRI performed today.
+WC-1141,OBL-0285,OBL-0285-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Lumbar MRI is available with findings and impression.
+WC-1142,OBL-0286,OBL-0286-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1142,OBL-0286,OBL-0286-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Shoulder MRI is on hold until prior imaging records are received.
+WC-1142,OBL-0287,OBL-0287-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1142,OBL-0287,OBL-0287-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1142,OBL-0287,OBL-0287-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1142,OBL-0287,OBL-0287-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1143,OBL-0288,OBL-0288-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1143,OBL-0288,OBL-0288-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1143,OBL-0288,OBL-0288-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1143,OBL-0289,OBL-0289-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1143,OBL-0289,OBL-0289-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1143,OBL-0289,OBL-0289-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1143,OBL-0290,OBL-0290-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1143,OBL-0290,OBL-0290-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Hip MRI.
+WC-1143,OBL-0290,OBL-0290-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Hip MRI performed today.
+WC-1143,OBL-0290,OBL-0290-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Hip MRI is available with findings and impression.
+WC-1144,OBL-0291,OBL-0291-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1145,OBL-0292,OBL-0292-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1145,OBL-0292,OBL-0292-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1145,OBL-0292,OBL-0292-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1145,OBL-0293,OBL-0293-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1145,OBL-0293,OBL-0293-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1145,OBL-0293,OBL-0293-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1146,OBL-0294,OBL-0294-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1146,OBL-0294,OBL-0294-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1146,OBL-0294,OBL-0294-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1146,OBL-0295,OBL-0295-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1146,OBL-0295,OBL-0295-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI cancelled because imaging is no longer indicated.
+WC-1147,OBL-0296,OBL-0296-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1147,OBL-0296,OBL-0296-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Hip MRI is on hold until prior imaging records are received.
+WC-1147,OBL-0297,OBL-0297-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1147,OBL-0297,OBL-0297-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1147,OBL-0297,OBL-0297-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1147,OBL-0297,OBL-0297-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1147,OBL-0298,OBL-0298-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1147,OBL-0298,OBL-0298-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1147,OBL-0298,OBL-0298-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1148,OBL-0299,OBL-0299-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1148,OBL-0299,OBL-0299-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Lumbar MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1148,OBL-0300,OBL-0300-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1148,OBL-0301,OBL-0301-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1148,OBL-0301,OBL-0301-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1148,OBL-0301,OBL-0301-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1149,OBL-0302,OBL-0302-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1149,OBL-0302,OBL-0302-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1149,OBL-0302,OBL-0302-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1149,OBL-0303,OBL-0303-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1149,OBL-0303,OBL-0303-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Cervical MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1150,OBL-0304,OBL-0304-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1150,OBL-0304,OBL-0304-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1150,OBL-0304,OBL-0304-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1150,OBL-0305,OBL-0305-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1150,OBL-0305,OBL-0305-DOC-02,2026-09-14,treating_physician_note,treating_physician,Wrist CT discontinued. A different imaging study replaces the original order.
+WC-1151,OBL-0306,OBL-0306-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1151,OBL-0306,OBL-0306-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1151,OBL-0306,OBL-0306-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1152,OBL-0307,OBL-0307-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1152,OBL-0307,OBL-0307-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1153,OBL-0308,OBL-0308-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1153,OBL-0308,OBL-0308-DOC-02,2026-09-14,treating_physician_note,treating_physician,Wrist CT cancelled because imaging is no longer indicated.
+WC-1153,OBL-0309,OBL-0309-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1153,OBL-0309,OBL-0309-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1153,OBL-0309,OBL-0309-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1153,OBL-0310,OBL-0310-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1153,OBL-0310,OBL-0310-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1153,OBL-0310,OBL-0310-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1154,OBL-0311,OBL-0311-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1154,OBL-0311,OBL-0311-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1154,OBL-0311,OBL-0311-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1154,OBL-0312,OBL-0312-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1154,OBL-0312,OBL-0312-DOC-02,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1154,OBL-0312,OBL-0312-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Patient did not appear for the scheduled Cervical MRI.
+WC-1155,OBL-0313,OBL-0313-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1155,OBL-0313,OBL-0313-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Shoulder MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1155,OBL-0314,OBL-0314-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1155,OBL-0314,OBL-0314-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1155,OBL-0314,OBL-0314-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1156,OBL-0315,OBL-0315-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1156,OBL-0315,OBL-0315-DOC-02,2026-09-14,treating_physician_note,treating_physician,Lumbar MRI discontinued. A different imaging study replaces the original order.
+WC-1156,OBL-0316,OBL-0316-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1156,OBL-0316,OBL-0316-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1156,OBL-0316,OBL-0316-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1157,OBL-0317,OBL-0317-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1157,OBL-0317,OBL-0317-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1157,OBL-0317,OBL-0317-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1157,OBL-0318,OBL-0318-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1157,OBL-0318,OBL-0318-DOC-02,2026-09-23,imaging_facility,imaging_facility_staff,Hip MRI performed today.
+WC-1157,OBL-0318,OBL-0318-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Patient did not appear for the scheduled Hip MRI.
+WC-1157,OBL-0319,OBL-0319-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1157,OBL-0319,OBL-0319-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1157,OBL-0319,OBL-0319-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1157,OBL-0319,OBL-0319-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1158,OBL-0320,OBL-0320-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1158,OBL-0320,OBL-0320-DOC-02,,payer_determination,payer,The authorization request was approved earlier this month.
+WC-1158,OBL-0320,OBL-0320-DOC-03,2026-09-14,provider_note,provider,Authorization request withdrawn effective today because the treatment strategy changed.
+WC-1159,OBL-0321,OBL-0321-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1159,OBL-0321,OBL-0321-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1159,OBL-0321,OBL-0321-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1159,OBL-0322,OBL-0322-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1159,OBL-0322,OBL-0322-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1159,OBL-0322,OBL-0322-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1159,OBL-0322,OBL-0322-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1160,OBL-0323,OBL-0323-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1160,OBL-0324,OBL-0324-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1160,OBL-0324,OBL-0324-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1160,OBL-0324,OBL-0324-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1160,OBL-0324,OBL-0324-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1160,OBL-0325,OBL-0325-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1160,OBL-0325,OBL-0325-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Wrist CT remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1161,OBL-0326,OBL-0326-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1161,OBL-0327,OBL-0327-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1161,OBL-0327,OBL-0327-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1161,OBL-0327,OBL-0327-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1162,OBL-0328,OBL-0328-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1162,OBL-0328,OBL-0328-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Hip MRI is on hold until prior imaging records are received.
+WC-1162,OBL-0329,OBL-0329-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1162,OBL-0329,OBL-0329-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1162,OBL-0329,OBL-0329-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1162,OBL-0330,OBL-0330-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1162,OBL-0330,OBL-0330-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1162,OBL-0330,OBL-0330-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1162,OBL-0330,OBL-0330-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1163,OBL-0331,OBL-0331-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1163,OBL-0331,OBL-0331-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1163,OBL-0332,OBL-0332-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1163,OBL-0332,OBL-0332-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1163,OBL-0332,OBL-0332-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1163,OBL-0333,OBL-0333-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1163,OBL-0333,OBL-0333-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI discontinued. A different imaging study replaces the original order.
+WC-1164,OBL-0334,OBL-0334-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1164,OBL-0334,OBL-0334-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Wrist CT is on hold until prior imaging records are received.
+WC-1165,OBL-0335,OBL-0335-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1165,OBL-0335,OBL-0335-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1165,OBL-0335,OBL-0335-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1165,OBL-0336,OBL-0336-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1165,OBL-0336,OBL-0336-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1165,OBL-0337,OBL-0337-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1165,OBL-0337,OBL-0337-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Cervical MRI.
+WC-1165,OBL-0337,OBL-0337-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1165,OBL-0337,OBL-0337-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Cervical MRI is available with findings and impression.
+WC-1166,OBL-0338,OBL-0338-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1166,OBL-0339,OBL-0339-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1166,OBL-0339,OBL-0339-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1166,OBL-0339,OBL-0339-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1166,OBL-0339,OBL-0339-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1167,OBL-0340,OBL-0340-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1167,OBL-0340,OBL-0340-DOC-02,2026-09-14,treating_physician_note,treating_physician,Referral cancelled because specialist evaluation is no longer required.
+WC-1168,OBL-0341,OBL-0341-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1168,OBL-0341,OBL-0341-DOC-02,,imaging_facility,imaging_facility_staff,"Shoulder MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1168,OBL-0341,OBL-0341-DOC-03,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1168,OBL-0342,OBL-0342-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1168,OBL-0342,OBL-0342-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1168,OBL-0342,OBL-0342-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1169,OBL-0343,OBL-0343-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1169,OBL-0343,OBL-0343-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1169,OBL-0344,OBL-0344-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1169,OBL-0344,OBL-0344-DOC-02,,imaging_facility,imaging_facility_staff,"Wrist CT was reportedly completed earlier this month, but the performance date is not documented."
+WC-1169,OBL-0344,OBL-0344-DOC-03,2026-09-14,treating_physician_note,treating_physician,Wrist CT order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1170,OBL-0345,OBL-0345-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1170,OBL-0345,OBL-0345-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Hip MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1170,OBL-0346,OBL-0346-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1171,OBL-0347,OBL-0347-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1171,OBL-0347,OBL-0347-DOC-02,,imaging_facility,imaging_facility_staff,"Wrist CT was reportedly completed earlier this month, but the performance date is not documented."
+WC-1171,OBL-0347,OBL-0347-DOC-03,2026-09-14,treating_physician_note,treating_physician,Wrist CT order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1171,OBL-0348,OBL-0348-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1171,OBL-0348,OBL-0348-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1171,OBL-0348,OBL-0348-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1171,OBL-0349,OBL-0349-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1171,OBL-0349,OBL-0349-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1171,OBL-0349,OBL-0349-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1172,OBL-0350,OBL-0350-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1172,OBL-0350,OBL-0350-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1172,OBL-0350,OBL-0350-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1172,OBL-0350,OBL-0350-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1173,OBL-0351,OBL-0351-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1173,OBL-0351,OBL-0351-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1173,OBL-0351,OBL-0351-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1173,OBL-0352,OBL-0352-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1173,OBL-0352,OBL-0352-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Hip MRI scheduled for 2026-09-27.
+WC-1174,OBL-0353,OBL-0353-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1174,OBL-0353,OBL-0353-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1174,OBL-0353,OBL-0353-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1175,OBL-0354,OBL-0354-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1175,OBL-0354,OBL-0354-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1175,OBL-0354,OBL-0354-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1176,OBL-0355,OBL-0355-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1176,OBL-0355,OBL-0355-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1176,OBL-0356,OBL-0356-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Physical therapy authorization.
+WC-1177,OBL-0357,OBL-0357-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1177,OBL-0357,OBL-0357-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1177,OBL-0357,OBL-0357-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1177,OBL-0357,OBL-0357-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1177,OBL-0358,OBL-0358-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1177,OBL-0358,OBL-0358-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Lumbar MRI.
+WC-1177,OBL-0358,OBL-0358-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Lumbar MRI performed today.
+WC-1177,OBL-0358,OBL-0358-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Lumbar MRI is available with findings and impression.
+WC-1177,OBL-0359,OBL-0359-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1177,OBL-0359,OBL-0359-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1177,OBL-0359,OBL-0359-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1178,OBL-0360,OBL-0360-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1178,OBL-0360,OBL-0360-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Hip MRI.
+WC-1178,OBL-0360,OBL-0360-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Hip MRI performed today.
+WC-1178,OBL-0360,OBL-0360-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Hip MRI is available with findings and impression.
+WC-1178,OBL-0361,OBL-0361-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1178,OBL-0361,OBL-0361-DOC-02,2026-09-23,ncm_note,nurse_case_manager,"Worker reports that authorization was approved, but no payer or utilization-review determination is present."
+WC-1179,OBL-0362,OBL-0362-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1179,OBL-0362,OBL-0362-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1179,OBL-0362,OBL-0362-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1179,OBL-0363,OBL-0363-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1179,OBL-0363,OBL-0363-DOC-02,2026-09-23,imaging_facility,imaging_facility_staff,Cervical MRI performed today.
+WC-1179,OBL-0363,OBL-0363-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Patient did not appear for the scheduled Cervical MRI.
+WC-1180,OBL-0364,OBL-0364-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1180,OBL-0364,OBL-0364-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Shoulder MRI.
+WC-1180,OBL-0364,OBL-0364-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Shoulder MRI performed today.
+WC-1180,OBL-0364,OBL-0364-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Shoulder MRI is available with findings and impression.
+WC-1180,OBL-0365,OBL-0365-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1180,OBL-0365,OBL-0365-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1180,OBL-0365,OBL-0365-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1181,OBL-0366,OBL-0366-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1181,OBL-0366,OBL-0366-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1181,OBL-0366,OBL-0366-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1181,OBL-0367,OBL-0367-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1181,OBL-0367,OBL-0367-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1181,OBL-0367,OBL-0367-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1181,OBL-0367,OBL-0367-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1182,OBL-0368,OBL-0368-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1182,OBL-0368,OBL-0368-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1182,OBL-0368,OBL-0368-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1182,OBL-0369,OBL-0369-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1182,OBL-0369,OBL-0369-DOC-02,,imaging_facility,imaging_facility_staff,"Wrist CT was reportedly completed earlier this month, but the performance date is not documented."
+WC-1182,OBL-0369,OBL-0369-DOC-03,2026-09-14,treating_physician_note,treating_physician,Wrist CT order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1182,OBL-0370,OBL-0370-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1182,OBL-0370,OBL-0370-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1182,OBL-0370,OBL-0370-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1183,OBL-0371,OBL-0371-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1183,OBL-0371,OBL-0371-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1183,OBL-0372,OBL-0372-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1183,OBL-0372,OBL-0372-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Wrist CT.
+WC-1183,OBL-0372,OBL-0372-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Wrist CT performed today.
+WC-1183,OBL-0372,OBL-0372-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Wrist CT is available with findings and impression.
+WC-1184,OBL-0373,OBL-0373-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1184,OBL-0373,OBL-0373-DOC-02,2026-09-14,treating_physician_note,treating_physician,Prior specialist referral discontinued. A new specialty referral replaces the prior referral.
+WC-1184,OBL-0374,OBL-0374-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1184,OBL-0375,OBL-0375-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1184,OBL-0375,OBL-0375-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Lumbar MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1185,OBL-0376,OBL-0376-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1185,OBL-0376,OBL-0376-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1185,OBL-0376,OBL-0376-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1185,OBL-0377,OBL-0377-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1185,OBL-0377,OBL-0377-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Shoulder MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1185,OBL-0378,OBL-0378-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Pain management consultation.
+WC-1185,OBL-0378,OBL-0378-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1185,OBL-0378,OBL-0378-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1185,OBL-0378,OBL-0378-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1186,OBL-0379,OBL-0379-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1186,OBL-0379,OBL-0379-DOC-02,,specialist_clinic,specialist_clinic_staff,Clinic documentation states the consultation occurred earlier this month but does not provide the encounter date.
+WC-1186,OBL-0379,OBL-0379-DOC-03,2026-09-14,treating_physician_note,treating_physician,Referral cancelled effective today. The available record does not establish whether the consultation occurred before cancellation.
+WC-1186,OBL-0380,OBL-0380-DOC-01,2026-09-05,treating_physician_note,treating_physician,Wrist CT ordered for further evaluation.
+WC-1186,OBL-0380,OBL-0380-DOC-02,2026-09-14,imaging_facility,imaging_facility_staff,Scheduling for Wrist CT is on hold until prior imaging records are received.
+WC-1187,OBL-0381,OBL-0381-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1187,OBL-0381,OBL-0381-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Lumbar MRI.
+WC-1187,OBL-0381,OBL-0381-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Lumbar MRI performed today.
+WC-1187,OBL-0381,OBL-0381-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Lumbar MRI is available with findings and impression.
+WC-1187,OBL-0382,OBL-0382-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Occupational therapy authorization.
+WC-1187,OBL-0382,OBL-0382-DOC-02,2026-09-14,payer_determination,payer,Authorization request approved.
+WC-1187,OBL-0382,OBL-0382-DOC-03,2026-09-23,provider_message,provider,Authorization decision received and documented.
+WC-1188,OBL-0383,OBL-0383-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1188,OBL-0383,OBL-0383-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1188,OBL-0383,OBL-0383-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1189,OBL-0384,OBL-0384-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1189,OBL-0384,OBL-0384-DOC-02,2026-09-23,ur_determination,utilization_review,Authorization request approved.
+WC-1189,OBL-0384,OBL-0384-DOC-03,2026-09-23,payer_determination,payer,Authorization request denied.
+WC-1189,OBL-0385,OBL-0385-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Neurology consultation.
+WC-1189,OBL-0385,OBL-0385-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1189,OBL-0385,OBL-0385-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1189,OBL-0385,OBL-0385-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1190,OBL-0386,OBL-0386-DOC-01,2026-09-05,treating_physician_note,treating_physician,Lumbar MRI ordered for further evaluation.
+WC-1190,OBL-0386,OBL-0386-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Lumbar MRI.
+WC-1190,OBL-0386,OBL-0386-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Lumbar MRI performed today.
+WC-1190,OBL-0386,OBL-0386-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Lumbar MRI is available with findings and impression.
+WC-1190,OBL-0387,OBL-0387-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1190,OBL-0387,OBL-0387-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1190,OBL-0388,OBL-0388-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1190,OBL-0388,OBL-0388-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until signed referral is received.
+WC-1190,OBL-0388,OBL-0388-DOC-03,2026-09-23,ncm_note,nurse_case_manager,signed referral requested and still awaiting receipt.
+WC-1191,OBL-0389,OBL-0389-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1191,OBL-0389,OBL-0389-DOC-02,,imaging_facility,imaging_facility_staff,"Shoulder MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1191,OBL-0389,OBL-0389-DOC-03,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
+WC-1192,OBL-0390,OBL-0390-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Foot and ankle consultation.
+WC-1192,OBL-0390,OBL-0390-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1192,OBL-0390,OBL-0390-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1192,OBL-0390,OBL-0390-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1192,OBL-0391,OBL-0391-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1192,OBL-0391,OBL-0391-DOC-02,2026-09-14,provider_message,provider,Authorization request withdrawn. Please cancel the pending request.
+WC-1193,OBL-0392,OBL-0392-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1193,OBL-0392,OBL-0392-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until prior imaging records is received.
+WC-1193,OBL-0392,OBL-0392-DOC-03,2026-09-23,ncm_note,nurse_case_manager,prior imaging records requested and still awaiting receipt.
+WC-1193,OBL-0393,OBL-0393-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1193,OBL-0393,OBL-0393-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Shoulder MRI.
+WC-1193,OBL-0393,OBL-0393-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Shoulder MRI performed today.
+WC-1193,OBL-0393,OBL-0393-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Shoulder MRI is available with findings and impression.
+WC-1193,OBL-0394,OBL-0394-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1193,OBL-0394,OBL-0394-DOC-02,2026-09-14,provider_note,provider,Prior authorization request discontinued. A revised request replaces the earlier request.
+WC-1194,OBL-0395,OBL-0395-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1194,OBL-0395,OBL-0395-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1194,OBL-0395,OBL-0395-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1194,OBL-0395,OBL-0395-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1194,OBL-0396,OBL-0396-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1194,OBL-0396,OBL-0396-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1194,OBL-0396,OBL-0396-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1195,OBL-0397,OBL-0397-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Aquatic therapy authorization.
+WC-1195,OBL-0398,OBL-0398-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1195,OBL-0398,OBL-0398-DOC-02,2026-09-14,payer_determination,payer,Authorization approved for Hip MRI.
+WC-1195,OBL-0398,OBL-0398-DOC-03,2026-09-23,imaging_facility,imaging_facility_staff,Hip MRI performed today.
+WC-1195,OBL-0398,OBL-0398-DOC-04,2026-09-29,radiology_report,radiologist,Final radiology report for Hip MRI is available with findings and impression.
+WC-1196,OBL-0399,OBL-0399-DOC-01,2026-09-05,treating_physician_note,treating_physician,Hip MRI ordered for further evaluation.
+WC-1196,OBL-0399,OBL-0399-DOC-02,2026-09-14,payer_determination,payer,Authorization review for Hip MRI remains pending. Imaging cannot proceed until authorization approval is documented.
+WC-1196,OBL-0400,OBL-0400-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1196,OBL-0400,OBL-0400-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral accepted. Appointment scheduled for 2026-09-27.
+WC-1196,OBL-0401,OBL-0401-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Work conditioning authorization.
+WC-1196,OBL-0401,OBL-0401-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1196,OBL-0401,OBL-0401-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1197,OBL-0402,OBL-0402-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Spine specialist consultation.
+WC-1197,OBL-0402,OBL-0402-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1197,OBL-0402,OBL-0402-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1197,OBL-0402,OBL-0402-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1197,OBL-0403,OBL-0403-DOC-01,2026-09-05,treating_physician_note,treating_physician,Shoulder MRI ordered for further evaluation.
+WC-1197,OBL-0403,OBL-0403-DOC-02,2026-09-14,treating_physician_note,treating_physician,Shoulder MRI cancelled because imaging is no longer indicated.
+WC-1198,OBL-0404,OBL-0404-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Epidural injection authorization.
+WC-1198,OBL-0404,OBL-0404-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1198,OBL-0404,OBL-0404-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1198,OBL-0405,OBL-0405-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Hand surgeon consultation.
+WC-1198,OBL-0405,OBL-0405-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received. Scheduling cannot proceed until supporting medical records is received.
+WC-1198,OBL-0405,OBL-0405-DOC-03,2026-09-23,ncm_note,nurse_case_manager,supporting medical records requested and still awaiting receipt.
+WC-1199,OBL-0406,OBL-0406-DOC-01,2026-09-05,provider_note,provider,Authorization request submitted for Facet injection authorization.
+WC-1199,OBL-0406,OBL-0406-DOC-02,2026-09-14,ur_determination,utilization_review,Request remains pending clinical review. Supporting medical records are required before a determination can be issued.
+WC-1199,OBL-0406,OBL-0406-DOC-03,2026-09-23,provider_message,provider,Supporting medical records requested and not yet received.
+WC-1199,OBL-0407,OBL-0407-DOC-01,2026-09-05,treating_physician_note,treating_physician,Refer patient for Orthopedic consultation.
+WC-1199,OBL-0407,OBL-0407-DOC-02,2026-09-14,specialist_clinic,specialist_clinic_staff,Referral received and accepted.
+WC-1199,OBL-0407,OBL-0407-DOC-03,2026-09-23,clinic_encounter,specialist,Patient evaluated today.
+WC-1199,OBL-0407,OBL-0407-DOC-04,2026-09-29,specialist_report,specialist,Consultation report received with assessment and treatment plan.
+WC-1200,OBL-0408,OBL-0408-DOC-01,2026-09-05,treating_physician_note,treating_physician,Cervical MRI ordered for further evaluation.
+WC-1200,OBL-0408,OBL-0408-DOC-02,,imaging_facility,imaging_facility_staff,"Cervical MRI was reportedly completed earlier this month, but the performance date is not documented."
+WC-1200,OBL-0408,OBL-0408-DOC-03,2026-09-14,treating_physician_note,treating_physician,Cervical MRI order cancelled effective 2026-09-14. The available completion record does not establish whether imaging occurred before cancellation.
