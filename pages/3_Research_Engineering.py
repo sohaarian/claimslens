@@ -13,6 +13,15 @@ st.set_page_config(
     layout="wide",
 )
 
+from claimslens_visual_system import show_page
+
+
+
+# CLAIMSLENS RESEARCH NAVIGATION V9
+from claimslens_nav import sidebar_navigation
+
+sidebar_navigation()
+
 install_ui()
 
 brand_hero(
@@ -24,6 +33,9 @@ brand_hero(
     "reconstructs documentary state, and applies safety-aware assurance.",
     "SYSTEM ARCHITECTURE / ASSURANCENET / RELEASE GATES",
 )
+
+show_page('3_Research_Engineering')
+
 
 page_purpose(
     "What this page is for",

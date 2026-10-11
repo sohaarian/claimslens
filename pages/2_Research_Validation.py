@@ -8,6 +8,15 @@ st.set_page_config(
     layout="wide",
 )
 
+from claimslens_visual_system import show_page
+
+
+
+# CLAIMSLENS RESEARCH NAVIGATION V9
+from claimslens_nav import sidebar_navigation
+
+sidebar_navigation()
+
 install_ui()
 
 brand_hero(
@@ -19,6 +28,9 @@ brand_hero(
     "evaluated, and where did it fail?",
     "FROZEN V1 / LOCKED BENCHMARK / FAILURE ANALYSIS",
 )
+
+show_page('2_Research_Validation')
+
 
 page_purpose(
     "What this page is for",

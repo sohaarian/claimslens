@@ -25,3 +25,38 @@ v2_stability/
 v3_assurance/
 backups/
 __pycache__/
+
+# Private and local files
+.env
+.env.*
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local research databases and private outputs
+*.sqlite
+*.sqlite3
+*.db
+research_outputs/
+*.bak
+*.log
+
+# Local backups
+*before_*.py.bak
+
+*.backup_*
+*.bak
+*broken*.py
+__pycache__/
+*.pyc
+research_outputs/
+*.sqlite
+*.sqlite3
+*.db
+.env
+.env.*
+.streamlit/secrets.toml
